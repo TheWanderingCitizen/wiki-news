@@ -1,0 +1,1176 @@
+[
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】PTU（第一波）3.23.0 9139742 补丁说明",
+        "link": "https://tieba.baidu.com/p/8976232037?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8976232037",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "PTU（第一波）3.23.0 9139742 补丁说明的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": {
+          "title": "灬灬G灬灬回复了帖子《PTU（第一波）3.23.0 9139742 补丁说明》",
+          "description": "<p>版本号：VERSION 3.23.0-EPTU.9139742<br>.<br>这个新环境中，你的角色将根据LTP数据构建，因此医疗笔、弹药、舰船租赁和精炼厂工单等(非LTI)物品都将丢失。<br>用户组：第一波<br>服务器：US/EU服（EPTU频道）- 复制层/服务器恢复启用<br>初始aUEC: 1500万<br>.<br>注意：此版本还不包含所有预期的功能，这些还未准备好的功能将在可用时在版本更新中说明。另外，某些功能可能仍是只有部分实装的状态，因此尚未准备好进行测试，当这些功能达到可玩状态时，将在版本更新中说明并添加到“测试焦点”中。请仅在 Issue Council 提交与测试焦点和通常游戏玩法相关的Bug。<br>.<br>【测试焦点 / 主要反馈对象】<br>· 游戏稳定性（主要焦点）<br>· 主控模式<br>· 完全的角色定制器翻新<br>· mobiGlas手环返工/星图/内部地图/小地图<br>· 舱外活动（EVA）T2<br>· 新的战利品搜刮UI/面罩/镜片<br>· 动态准心/完全的FPS战斗重构<br>· 背包换弹/弹药重装<br>· 实体购物UI<br>· 新竞技场指挥官功能：工程游戏模式、悬浮大逃杀、新的赛道、新的海盗潮最终波次<br>.<br>【已知问题】<br>对于3.23版本，服务器崩溃恢复将删除所有当前任务并将其标记为已放弃。发生这种情况时，不会降低你的声望。这可能会导致地堡等地点出现一些非法侵入问题。<br>配送中心任务有时会显示错误的内部位置标记，因此可能很难准确知道你需要前往哪里。<br>· PU - 载具购买终端 - 购物/地点 - 无法从终端购买载具<br>· PU - 斯坦顿 - 赫斯顿/十字军 - 罗威尔/奥里森 - 地点/交通 - 罗威尔/奥里森的公交与车站门偏移，导致视觉和碰撞问题<br>· PU - 购物/美术/UI/地点 - 商店中展示的武器都旋转了90度<br>· PU - UI/HUD/交互 - 使用交互模式、mobiGlas手环和商店终端时，鼠标光标不可见<br>· PU - 斯坦顿 - 赫斯顿 - 罗威尔 - 交通/地点 - 从列维斯登站前往中央商务区的列车可能会丢失<br>· PU - 多个地点 - 地点/美术 - 六角湾和加利亚的气闸缺少可呼吸的大气和门<br>· PU - 斯坦顿 - 六角湾 - 地点/角色功能 - 玩家尸体不会在六角湾中消失<br>· PU - 斯坦顿 - 购物 - 尝试购买飞船时，价值为0，交易会失败<br>· PU - 斯坦顿 - 角色 - HUD/UI - 死后没有尸体标记<br>· PU - UI/购物终端 - 玩家无法通过点击物品的3D图标来选择物品<br>· PU - 斯坦顿 - 罗威尔 - 女性/AI - 罗威尔缺少女性社交AI<br>· PU - 交互/UI - 突出显示可交互物品后，面板变得无响应<br>· PU - 终端 - 地点/交互/UI - 无法与医疗保险终端交互来管理再生地点<br>· PU - UI - NikNax/VLM - 涂装 - 所有涂装在NikNax和载具装配管理器中都缺少体积信息<br>· PU - 性能 - 在高并发期间会由于DatabaseUnloading而导致帧率不稳定/卡顿<br>· RSI星座所有变体 - PU - 载具/交互 - 驾驶员和副驾驶员座位缺少交互提示<br>· 前端 - UI/地点 - 库存 - 账户授权 - 主要居住地点可能会从前端丢失<br>· AC - 前端 - 工程：决斗 - UI/大厅/菜单 - 大厅屏幕上缺少舰船模型<br>.<br>【功能与玩法】<br>人物：<br>· A更新了角色定制器审核页面上的角色动画<br>.<br>AI：<br>· AI飞船现在将使用武器的有效射程比来确定何时开火<br>.<br>游戏玩法：<br>· 进一步优化手环 UI<br>· 更新了面罩小地图路径 UI 的视觉效果并添加了图标。<br>· 飞行：给节流阀微调的添加额外的按键<br>· 更新了载具入口标记和无人值守载具标记<br>· 添加了按键绑定来判断你是否处于炮塔控制中（载人、远程等）<br>· 进一步调整推进器和水相互作用<br>· 给爆炸添加水相互作用限制<br>· 将货物停靠按键绑定移至 右Alt+N<br>· AC：允许在赛前进行能量分配<br>.<br>武器和物品：<br>· 调整了贝林冲锋枪、双子座冲锋枪和劫掠者霰弹枪的后坐力<br>· 减少贝林霰弹枪、双子座霰弹枪和掠夺者霰弹枪的伤害<br>.<br>【Bug修复】<br>· 已修复 - 菜单 - 角色创建 - 角色创建无法接受<br>· 已修复 - 星图 - 标记无法一直正常交互<br>· 已修复 - PU - mobiGlas手环 - 某些通知显示为空白<br>· 已修复 - PU - 由于任务邀请通知不正确而无法接受共享任务<br>· 已修复 - PU - UI/手环/通讯 - 通讯选项卡为空白，使用按键绑定 F11 打开时不显示任何信息<br>· 已修复 - PU - UI/面罩/聊天 - 面罩聊天仅能使用 ESC 键或小部件上的“X”退出聚焦<br>· 已修复 - PU - 斯坦顿 - 耶拉 - 着陆区 - 六角湾 - 地点/交通 - 六角湾大堂和中央大厅之间缺少电梯<br>· 已修复 - PU - 地点 - 克莱舍尔更生设施/埃夫勒斯港 - 被送去监狱或从监狱出来时的加载屏幕不会消失<br>· 已修复 - PU - 斯坦顿 - UI - 手环 - 主屏幕中的载具面板不显示任何飞船数据<br>· 已修复 - PU - 角色 - 趴下 - 玩家角色在从趴下站起来时候会快速旋转<br>· 已修复 - PU - 斯坦顿 - 角色/武器 - 重新装填被打断后弹药计数不正确<br>· 已修复 - PU - 斯坦顿 - 角色/武器 - 大量弹匣会导致重新装填会无限期地进行<br>· 已修复 - PU - 武器/控制 - 多功能工具 - 鼠标灵敏度会根据多功能工具举起来的载具重量增加<br>· 已修复 - PU - 斯坦顿 - 动画 - 购物/交互 - 在检视模式下旋转物体会高亮附近的物体<br>· 已修复 - 圣盾锤头鲨 - PU - 载具/GFX - 可视区域 - 整个锤头鲨存在多个可视区域问题<br>· 已修复 - 代码 - AI - FPS - 死亡与伤痛台词咒骂台词在 PU 中不起作用<br>· 已修复 - AC - 工程中队战斗 - 当对方队员以自杀方式结束比赛时，他们将获得胜利<br>· 已修复 - AC - A2大力神 - 工程游戏模式 - UI/载具 - 所有物品都可以同时供电<br>· 已修复 - AC - 无尽剜度潮 - 2953剜度侵略者徽章无法解锁<br>· 已修复 - AC - 资源网络 - 舰船/载具/游戏代码 - 保险丝盒中只有第一个保险丝槽会影响能量流<br>.<br>技术修复：<br>· 修复了5个客户端崩溃<br>· 修复了4个服务器崩溃</p><br> ",
+          "pubDate": "Thu, 11 Apr 2024 22:24:00 GMT",
+          "guid": {
+            "_": "https://tieba.baidu.com/p/8976232037?pid=150097380504#150097380504",
+            "$": {
+              "isPermaLink": "false"
+            }
+          },
+          "link": "https://tieba.baidu.com/p/8976232037?pid=150097380504#150097380504"
+        }
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【4-11 ISC片段】超速协议与异种威胁",
+        "link": "https://tieba.baidu.com/p/8976201324?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8976201324",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【4-11 ISC片段】超速协议与异种威胁的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《【4-11 ISC片段】超速协议与异种威胁》",
+            "description": "<p>想必大家已经玩上了“超速协议”，这是一个由五个部分组成的全局活动，并且是即将在3.23版本中到来的改进的异种威胁活动的前奏。本周，我们将采访此活动的制作者，了解他们的初衷和未来的计划。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=7608c80cfca1cd1105b672288913c8b0/c08cb358ccbf6c810ede00d4fa3eb13533fa402b.jpg?tbpicau=2024-04-14-05_2361deb102b745971e7a564655795ac5\" size=\"1308805\" referrerpolicy=\"no-referrer\"><br>作为一个实施服务游戏，团队要做一些事情以增加玩家的参与度，而超速协议就是团队在尝试一些其他MMO游戏中常见的东西。这是一个五个阶段的任务链，让玩家为异种威胁活动做好准备。</p><br>作者：灬灬G灬灬<br>楼层：1楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 20:48:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976201324?pid=150097289558#150097289558",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976201324?pid=150097289558#150097289558"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【4-11 ISC片段】超速协议与异种威胁》",
+            "description": "<p>更长的故事情节分到了多个合同中，而不仅仅是一个单独的合同。这一次，团队尝试每周发布新任务，根据反馈和数据收集，未来可能会缩短或加长事件。随着每一个阶段，任务变得更难。让玩家能对游戏的背景有更深入的了解，并做好准备迎接之后的异种威胁任务。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=c32cce262659252da3171d0c049a032c/05e05f6d55fbb2fb59c3742e094a20a44623dc34.jpg?tbpicau=2024-04-14-05_02bda83e41712cc749b11d74b09cc495\" size=\"539968\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：2楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 20:49:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976201324?pid=150097290903#150097290903",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976201324?pid=150097290903#150097290903"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【4-11 ISC片段】超速协议与异种威胁》",
+            "description": "<p>第一阶段是数据抢劫任务。玩家必须要下到地堡里去恢复一些数据。故事情节中，民事防御组织（CDF）发现很多地堡失联或被异种威胁占领，而玩家需要渗透进地堡并保护服务器机房。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=a008b848eb345982c58ae59a3cf5310b/3c57472dd42a2834034e1a371db5c9ea15cebf34.jpg?tbpicau=2024-04-14-05_7ca5c55e7c1b4003d88d058cd197d308\" size=\"941977\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=82abd38c23380cd7e61ea2e59145ad14/b7f6784c510fd9f9e5ff7955632dd42a2834a434.jpg?tbpicau=2024-04-14-05_86d2917cd628271972728511368c4b75\" size=\"908752\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=68eaa1023dec54e741ec1a1689399bfd/0f4d99f2b2119313f9abd38c23380cd791238d34.jpg?tbpicau=2024-04-14-05_e4b4456bb2cca665246bee04bdf73788\" size=\"1012761\" referrerpolicy=\"no-referrer\"><br>这个任务的难点是AI和服务器，随着你在任务链中每进一步，恢复每台服务器事件越少，也会有更多的AI攻击你。团队从42中队中获得了一些技术，让AI不止会攻击你，也会冲进服务器机房，施加压力。最初的任务2到4个人可以很轻松的搞定，但最后一个就会变得很难。<br>团队认为第一阶段非常不错，有些人体验到了团队预想中的AI改进。但也有人反馈芯片没法用、AI没反应等问题，这些都是团队会记录并在以后不断改善的内容。</p><br>作者：灬灬G灬灬<br>楼层：3楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 20:50:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976201324?pid=150097291464#150097291464",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976201324?pid=150097291464#150097291464"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【4-11 ISC片段】超速协议与异种威胁》",
+            "description": "<p>第二阶段是赏金回收任务。你需要找到特定的异种威胁目标，击毁它并取回解密密钥，将密钥送到指定位置，以让CDF能知晓异种威胁接下来的动向。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=b29b3c13d3cad1c8d0bbfc2f4f3f67c4/006e56a85edf8db149c650584f23dd54564e7434.jpg?tbpicau=2024-04-14-05_2c892d07e4b4faf03f2f16005b30b95a\" size=\"819258\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=0b90cf84923f8794d3ff4826e21a0ead/f4dd9f1f4134970aa99b3c13d3cad1c8a7865d34.jpg?tbpicau=2024-04-14-05_730b0a5574c480a3e6cf247c9ca5e78a\" size=\"929815\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=1b41bdce3b1ed21b79c92eed9d6fddae/cb04524e251f95ca4d1dbe8a8f177f3e67095234.jpg?tbpicau=2024-04-14-05_f7798b37fe5ca5dfa6f04ee341b25d5d\" size=\"980381\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=a6ca8cc697c8a786be2a4a065708c9c7/68a63cdf8db1cb13ca81102f9b54564e92584b34.jpg?tbpicau=2024-04-14-05_d941ffcf92a4839062e76762c6efb80b\" size=\"795286\" referrerpolicy=\"no-referrer\"><br>这种任务以前在PU里有过，但是由于有问题就被拿走了。现在团队修好了这种任务，并在这个阶段重新利用。和之前的阶段一样，这个阶段的任务也会越来越难。同样，团队也收到了很多反馈。团队看到的最离谱的事情是有人用几艘蜻蜓击毁了锤头鲨。在未来团队会研究让AI对蜻蜓作出反应。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=2311ae4905a98226b8c12b2fba83b97a/880957fae6cd7b89568416bf492442a7d9330e34.jpg?tbpicau=2024-04-14-05_99008270f42f5b8a171ea6a86e63967f\" size=\"1290740\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：4楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 20:51:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976201324?pid=150097292933#150097292933",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976201324?pid=150097292933#150097292933"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【4-11 ISC片段】超速协议与异种威胁》",
+            "description": "<p>第三阶段，异种威胁意识到了他们的行动收到了阻碍，所以就厚颜无耻地开始了入侵。会在斯坦顿种随机出现一支庞大的异种威胁战斗舰队。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=f140137744087bf47dec57e1c2d2575e/aa0d118da97739125fcea95dbe198618367ae235.jpg?tbpicau=2024-04-14-05_c2c29d86d00501dcdb9eb05d3a90cef5\" size=\"939501\" referrerpolicy=\"no-referrer\"><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=00064e2057dfa9ecfd2e561f52d1f754/a417e418367adab4b838377fcdd4b31c8701e435.jpg?tbpicau=2024-04-14-05_476aa1fc7b752ac378c0279344d4e4dd\" size=\"950890\" referrerpolicy=\"no-referrer\"><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=e50ab0e0cc13632715edc23ba18ea056/6a74b8b44aed2e737f01aa10c101a18b87d6fa35.jpg?tbpicau=2024-04-14-05_5ba8f5965ae84ed39a035184e04976d1\" size=\"1207165\" referrerpolicy=\"no-referrer\"><br>在普遍的 MMO 中，这种任务应该是当你进入范围时接到任务提示，当你离开这片区域时，任务会自动被移除。第三阶段就是团队在尝试使用现有的系统达成这一种任务。这是一个全服范围任务，即使你没有完成第一阶段或第二阶段也能看到任务（但它不会跳过你的进度，你仍然需要做第一阶段和第二阶段的任务），玩家需要合作完成目标。当然同样的，也有玩家用蜻蜓过了这阶段的任务，团队表示无奈。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=a4f908d3efec8a13141a57e8c7029157/da16547adab44aeddda692d8f51c8701a18bfb35.jpg?tbpicau=2024-04-14-05_ed704f90c75fb5596253a9cbfbce4aa6\" size=\"1028048\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=930cebdf112c11dfded1bf2b53266255/ec5f9a198618367a2b6153e168738bd4b31ce535.jpg?tbpicau=2024-04-14-05_84c6ecbd70825ffe5a41c955bb4e49e4\" size=\"927360\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：5楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 20:52:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976201324?pid=150097293463#150097293463",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976201324?pid=150097293463#150097293463"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【4-11 ISC片段】超速协议与异种威胁》",
+            "description": "<p>第四阶段有两个部分。<br>第一部分是通讯卫星任务。你必须开启被异种威胁关停的通讯卫星，当然在通讯卫星激活的时候，异种威胁会开船来攻击你，并尝试重新链接上通讯卫星。当通讯卫星被重新激活后，炮塔会重新上线，并帮助你击退异种威胁。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=38fbcd266e34349b74066e8df9eb1521/eef521166d224f4a3d725f2f4ff790529822d135.jpg?tbpicau=2024-04-14-05_bd692151e2580dcd841bc9f5e61d7d74\" size=\"1065677\" referrerpolicy=\"no-referrer\"><br>在这个任务中，团队会丢给你很多不同的舰船需要你打，包括一艘必须优先处理的先锋（不然通讯卫星会被骇）。团队的预想是有些玩家在外面防守，而队友进卫星去重新激活。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=7c8f3c21922a283443a636036bb4c92e/09f5d0fb43166d22539c39a8002309f79052d235.jpg?tbpicau=2024-04-14-05_969a2e2e9d411f1c45573f8493ea1983\" size=\"898188\" referrerpolicy=\"no-referrer\"><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=ccfc7955632dd42a5f0901a3333a5b2f/616337fbb2fb431676f4564666a4462309f7d335.jpg?tbpicau=2024-04-14-05_f2ebab7e7b0e5c81d474b9a4e3e79dfb\" size=\"852486\" referrerpolicy=\"no-referrer\"><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=390f941c47e9390156028d364bed54f9/b55e572ac65c10381695e2fef4119313b07e8935.jpg?tbpicau=2024-04-14-05_ed4c5e58e9bcc1a8e06e3d73ab5e745a\" size=\"887008\" referrerpolicy=\"no-referrer\"><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=0f7bd2e330094b36db921be593cd7c00/95e477ce36d3d53988d623ff7c87e950352ab035.jpg?tbpicau=2024-04-14-05_7bc7fd641f3758894f3199e9e9eb059b\" size=\"1085172\" referrerpolicy=\"no-referrer\"><br>当你做完第一部分的任务后，你会发现这些其实都是调虎离山之计，异种威胁的真实目标是加利亚安保站，以清除整个犯罪数据库。而你要做的就是飞去加利亚并消灭那些异种威胁。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=37e22d97453b5bb5bed720f606d2d523/312c2d4a20a446231621895ede22720e0cf3d735.jpg?tbpicau=2024-04-14-05_062351b0f72c40f8b46689e676fe3fc1\" size=\"1139883\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=cafc3138729b033b2c88fcd225cf3620/1f180f224f4a20a458f510fbd6529822720ed035.jpg?tbpicau=2024-04-14-05_71902fa427f437a0510b857ff653a52a\" size=\"1203727\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=7963d0e653ce36d3a20483380af23a24/1a2d6bf79052982250d815ff91ca7bcb0a46d435.jpg?tbpicau=2024-04-14-05_f4fc8ce0399ac8d42fd69f9e92baffd1\" size=\"1054466\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：6楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 20:53:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976201324?pid=150097294593#150097294593",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976201324?pid=150097294593#150097294593"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【4-11 ISC片段】超速协议与异种威胁》",
+            "description": "<p>超速协议是团队对 MMO 系列任务的第一次探索。旨在可重复、鼓励社区精神并让人们能一起玩。这也是团队对于以后任务链类型任务的前进方向。团队希望通过超速协议实现更多的任务改变和链接并提供一些剧情，与市面上的其他 MMO 更加一致，以给玩家提供更愉快的游戏体验，而不是很多单独的互不关联的任务模块。团队很高兴看到大家在论坛上反馈说现在每周五都有动力上游戏了。团队也会根据反馈和事后分析，改进未来的任务链。超速协议是第一个任务链，并为预定于今夏发布的4.0和派罗奠定了基础。如果你还没玩过，从明天开始你将可以进行超速协议的全部5个阶段，超速协议会一直开放至3.23版本发布。</p><br>作者：灬灬G灬灬<br>楼层：9楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 20:54:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976201324?pid=150097295753#150097295753",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976201324?pid=150097295753#150097295753"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【4-11 ISC片段】超速协议与异种威胁》",
+            "description": "<p>接下来是第六阶段，也就是大家之前玩过的异种威胁事件，当然，团队进行了一些更新。箱子现在变得更加难运送了，其中一些需要专用的牵引光束。异种威胁事件的第二阶段（补给标枪）会有一种新的商品。而最后的大战根据之前的捕获伊德里斯活动的反馈进行了全面重做。试着登舰吧 :)<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=f671c03f8e95d143da76e42b43f18296/ce4bb488d43f879410146412941b0ef41bd53a35.jpg?tbpicau=2024-04-14-05_786213d6dfcec391e7c0f1fc0a54e7a4\" size=\"881086\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=6ce5d1999743ad4ba62e46c8b2035a89/8a86b63f8794a4c2c8c8cb1748f41bd5ad6e3935.jpg?tbpicau=2024-04-14-05_b49db0dadb81e572253d4dc07fbc9933\" size=\"1074846\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=bcf25bab9f33c895a67e9873e1127397/a00df045d688d43f3442bdce3b1ed21b0ef43b35.jpg?tbpicau=2024-04-14-05_604d8f7c9f4050a3758fd2726157cb18\" size=\"1013023\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=2f8716bf492442a7ae0efdade142ad95/9fc0a1fdfc039245675ecd33c194a4c27d1e2535.jpg?tbpicau=2024-04-14-05_cbd5f56cf89165e0c46b549310751a8a\" size=\"321659\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=bd65162804a7d933bfa8e47b9d4ad194/9ff39e039245d68866e99e98e2c27d1ed21b2435.jpg?tbpicau=2024-04-14-05_1a2de5e0a0dc7b5c0a9350128f2e4fa4\" size=\"345516\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=159dc81f35f082022d9291377bfafb8a/f8cc1f1ed21b0ef4a303b4629bc451da81cb3e35.jpg?tbpicau=2024-04-14-05_127806a0baf1cdfc4138180c4380b4c2\" size=\"1019392\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=68c56afcc4025aafd3327ec3cbecab8d/2110b01b0ef41bd514b8c4c817da81cb39db3d35.jpg?tbpicau=2024-04-14-05_25e3d5fa971b7372243ee7c1f98cc367\" size=\"1113321\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：8楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 20:54:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976201324?pid=150097295639#150097295639",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976201324?pid=150097295639#150097295639"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【4-11 ISC片段】超速协议与异种威胁》",
+            "description": "<p>第五阶段是事件的冷静期，你需要做几个快递任务，给斯坦顿-派罗跳跃点空间站送一些补给。因为你已经知道异种威胁的袭击即将到来，而你要为大战做好准备。之所以这么做，是因为团队想让大家先休息，以迎接接下来的故事顶峰。因为第六阶段就是完整的异种威胁活动事件了，而这将是一场大战。<br>当然这也不会是简单的送货任务，你的取货地点由AI防守，但不会像之前的阶段那样激烈了。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=482c9b87e01ea8d38a22740ca70b30cf/c8e0921f3a292df59b288029fa315c6034a87335.jpg?tbpicau=2024-04-14-05_d55ba994ef052ea0fa0413695a9e8c0e\" size=\"678024\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=fe5dbf12eed3fd1f3609a232004f25ce/ac1158292df5e0fee5f3a53d1a6034a85edf7235.jpg?tbpicau=2024-04-14-05_5f249394da143cc295cf307d9198a554\" size=\"1012860\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=cbe32af6c48ba61edfeec827713597cc/d05af6eef01f3a295723f9f2df25bc315c607c35.jpg?tbpicau=2024-04-14-05_9b431aea8be5ac32093104d78cc16c9a\" size=\"460138\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=dbc8b1dfbb1f4134e0370576151e95c1/66274ff5e0fe9925c1e7456c72a85edf8db17135.jpg?tbpicau=2024-04-14-05_945fc416ab09fb40b4c7588559c1445a\" size=\"1068491\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=d605e4130734970a47731027a5cbd1c0/71fb82fe9925bc3122b62da418df8db1cb137035.jpg?tbpicau=2024-04-14-05_c88ea2f4f055c6bebe86648a4062e1e3\" size=\"1000189\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：7楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 20:54:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976201324?pid=150097295168#150097295168",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976201324?pid=150097295168#150097295168"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【RSI启动器 2.0 正式发布】",
+        "link": "https://tieba.baidu.com/p/8976154438?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8976154438",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【RSI启动器 2.0 正式发布】的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《【RSI启动器 2.0 正式发布】》",
+            "description": "<p>robertsspaceindustries.com/comm-link/transmission/19818-Launcher-2<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"336\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=11754b6a96160924dc25a213e406359b/67c9fd3df8dcd1001d29d41d348b4710b9122f67.jpg?tbpicau=2024-04-14-05_a9d61e0e00fc76b0f2e55f7977f2b6e8\" size=\"115823\" referrerpolicy=\"no-referrer\"><br>未来计划中的更新：<br>- 更简单的管理游戏环境<br>- 删除着色器缓存、User文件夹、自定义按键绑定的选项<br>- 启动器离线模式<br>以及更多<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"314\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=244320d7f0fd5266a72b3c1c9b199799/953312cf3bc79f3d5d54c80cfca1cd11728b2967.jpg?tbpicau=2024-04-14-05_298b0b979568d8750807293bb8e98714\" size=\"67657\" referrerpolicy=\"no-referrer\"><br>如果有问题或反馈，可以在启动器专属的Issue Council里汇报或者光谱论坛发帖<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"313\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=9f53aff11466d0167e199e20a72ad498/2cc159c79f3df8dc7788a3ad8b11728b47102867.jpg?tbpicau=2024-04-14-05_32e73fb7ab6d0339f3527f1d461cad64\" size=\"44037\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：1楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 18:25:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976154438?pid=150097092703#150097092703",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976154438?pid=150097092703#150097092703"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【RSI启动器 2.0 正式发布】》",
+            "description": "<p>常见问题解答：<br>►什么是RSI启动器？<br>RSI启动器（RSI Launcher）是一款允许你安装、更新和启动《星际公民》的应用程序。<br>在其历史中，启动器融入了“验证（Verify）”等功能来控制你的游戏文件，又或是“状态(Status)”卡片来让你了解Live服务器的状态。<br>.<br>►为什么要制作新的RSI启动器？<br>老启动器在经过多年的使用后已达到其极限。需要对应用程序的核心技术进行全面改造。RSI启动器的最终目标是成为社区的可靠工具，并为 CIG开发的未来做好准备。<br>.<br>►如果我想保留旧的启动器怎么办？<br>截至目前，老版启动器仍可在下载页面上访问。<br>但最终（随着我们进一步深入2024年），将会实现从 1.6.10 到 2.0 的自动更新，并且将不再支持老的1.6.10版本。<br>.<br>►游戏安装在哪里？<br>默认游戏安装路径为<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"31\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=cdb1063caf24b899de3c79305e071d59/1fa7e026cffc1e176f0ba00d0c90f603738de961.jpg?tbpicau=2024-04-14-05_1bfeaaadae7a9a89998cff6f750fdcd2\" size=\"10668\" referrerpolicy=\"no-referrer\"><br>这一部分可以手动替换成你想要的文件夹：<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"388\" height=\"35\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=f90b7c344ad79123e0e0947c9d355917/4642330fd9f9d72a53d23c21922a2834349bbb62.jpg?tbpicau=2024-04-14-05_082bf6556862258f3928a2e96db867de\" size=\"8213\" referrerpolicy=\"no-referrer\"><br>其余部分路径将由启动器自动创建<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"260\" height=\"31\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=87e89c39a3dde711e7d243fe97eecef4/cbd3c344ad345982e03dc9ae4af431adcbef8461.jpg?tbpicau=2024-04-14-05_d89c8932debfd7f4f058e27c7254296d\" size=\"4691\" referrerpolicy=\"no-referrer\"><br>.<br>►我现在可以在不同的硬盘上安装不同的游戏频道吗？<br>在首次发布后，你仍然只能在一个位置安装不同的频道。这是让新启动器能向后兼容老启动器的一种手段。<br>不过，在接下来的几个月中，当老启动器最终退役时，我们将实现在不同位置安装不同游戏频道的可能性。<br>.<br>►启动器未检测到我已安装的游戏频道<br>首次使用新的启动器时，你可能无法检测到已下载的游戏。<br>单击“安装（Install）”。 如果启动程序找到游戏，它将开始验证文件过程，并且只需几分钟即可启动游戏。<br>如果您的游戏未安装在默认路径中，你必须在“设置”中正确更改路径，或将游戏文件夹移动到指定位置。<br>.<br>►验证（Verify）按钮有什么作用？<br>目前我们的下载工作方式如下：<br>1. 下载基础游戏包<br>2. 下载包含特定游戏构建所需文件列表的清单<br>3. 使用数据修补程序下载所有丢失的文件<br>当你点击“验证”时，启动器将下载清单并分析你的文件。如果文件损坏或丢失，数据修补程序将下载这些文件。<br>.<br>►我在启动游戏时遇到问题。 我该如何排除故障并解决问题？<br>有几种不同的原因可能会阻止你访问游戏，例如身份验证上的API错误或下载过程中的网络丢失。<br>通常情况是：<br>- 如果你在下载或启动游戏时遇到问题，可能是由游戏文件引起的。<br>1. 检查你的游戏安装路径<br>2. 验证游戏文件<br>3. 如果问题仍然存在，你可能需要重新下载游戏<br>.<br>- 如果您在下载和启动游戏之外，使用启动器时遇到问题，你可以尝试：<br>1. 从启动器注销<br>2. 退出启动器<br>2. 重新启动启动器</p><br>作者：灬灬G灬灬<br>楼层：2楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 18:28:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976154438?pid=150097099081#150097099081",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976154438?pid=150097099081#150097099081"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【RSI启动器 2.0 正式发布】》",
+            "description": "<p>【已知问题】<br>· 更新启动器将重置你的游戏位置。 如果你的游戏未在默认路径中下载，请在设置中更新。<br>· 下载Base P4K时可能会出现3001错误（验证文件已修复）<br>· 启动器无法为某些用户创建文件夹<br>· 用户可以在游戏运行时使用快捷方式重置启动器的状态<br>.<br>【快捷键】<br>ctrl + r：重新加载应用程序<br>ctrl + shift + r：重新启动应用程序<br>ctrl + alt + shift + r：重置应用程序</p><br>作者：灬灬G灬灬<br>楼层：7楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 19:37:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976154438?pid=150097212416#150097212416",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976154438?pid=150097212416#150097212416"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【3.23 版本前瞻】瞄准镜与小钱钱",
+        "link": "https://tieba.baidu.com/p/8976129530?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8976129530",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【3.23 版本前瞻】瞄准镜与小钱钱的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《【3.23 版本前瞻】瞄准镜与小钱钱》",
+            "description": "<p>【瞄准镜】<br>Alpha 3.23 版本带来了对第一人称体验的大量更新，从你与世界的交互方式到一系列 UI 改进。武器也发生了相当多的变化，这里要强调下即将到来的瞄准镜改进。<br>瞄准镜的几何图形经过全面修改，为玩家提供清晰的视野。 瞄准时的视觉质量也得到了改善，新的视差效果和轻微的扭曲给人一种真实镜片的感觉。十字准线现在投射在瞄准镜上，以适应任何枪管偏移。<br>此外，当使用瞄准镜进行瞄准时，玩家的动画已被新的程序动画集取代，使得向开镜瞄准（ADS）的过渡更加平滑。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=30a24deb70d12f2ece05ae687fc2d5ff/ee1ff113b07eca802e7615dbd72397dda14483ad.jpg?tbpicau=2024-04-14-05_09de19db6a024b051c9b230a725adae7\" size=\"1978828\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=714e3833fe0e7bec23da03e91f2eb9fa/4c363143fbf2b211db5ca9728c8065380cd78eae.jpg?tbpicau=2024-04-14-05_e83621c8e74ef519b65f885ff1950feb\" size=\"2033016\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=764d539cb003738dde4a0c2a831bb073/1ea9bb33c895d1436207c81f35f082025aaf07a3.jpg?tbpicau=2024-04-14-05_ddf29d10243499a3e510734b5386fb94\" size=\"2120917\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=44cea00d0c90f60304b09c4f0912b370/532a20a7d933c8951f0fb447971373f0820200a3.jpg?tbpicau=2024-04-14-05_f2646bca06603374a1f569d32215b5b6\" size=\"1958758\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"315\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=274f6a81ef773912c4268569c8198675/949bb343ad4bd113a2bc9b0e1cafa40f4bfb05a3.jpg?tbpicau=2024-04-14-05_8bba692fb78b137240281d3da8eb32d9\" size=\"1999561\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：1楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 17:31:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976129530?pid=150096956494#150096956494",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976129530?pid=150096956494#150096956494"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【3.23 版本前瞻】瞄准镜与小钱钱》",
+            "description": "<p>【经济】<br>众所周知，确保游戏内经济保持一致和平衡对于为所有玩家维护一个公平和愉快的游戏环境至关重要。这是一项微妙的任务，需要不断的关注和调整，特别是当我们从 Alpha 过渡到正式发布时。<br>为此，团队正在实施一系列再平衡措施，旨在确保游戏内经济的各个组成部分在一个有粘合度的框架中良好地协同运作。这些调整将侧重于使资源的分配、奖励和载具/物品价格更紧密地与社区的动态需求和努力保持一致，并代表 MMO 中应有的内容。<br>.<br>载具价格平衡：<br>飞船是值得骄傲的东西，因此价格需要反映这种地位。新价格基于以下几个因素：<br>· 尺寸 - 更大的飞船需要建造更多的材料，因此更昂贵。<br>· 制造商 - 一些制造商使用质量更好的材料（起源）、性能更好的组件（未来），甚至外星技术（埃斯佩里亚），所有这些都非常昂贵。<br>· 专注点 - 就像坦克比拖拉机更贵一样，军用载具或为竞赛而开发的载具也比民用或工业载具更昂贵。<br>这只是定价的第一步，我们将继续调整它，以确保它与不断变化的游戏动态以及影响载具行为方式的任何机制（比如主控模式）保持一致。<br>.<br>FPS 武器价格平衡：<br>与上面提到的载具类似，这是第一次将 FPS 武器一起平衡，以使其定价在其类别中得到统一。新价格是根据以下因素确定的：<br>· 性能 - 更有效的武器更昂贵。<br>· 稀有度 - 特殊武器，比如磁轨炮，只能从搜刮获得，因此价值更高。<br>· 玩家的预期 - 在玩家看来，榴弹发射器比自动步枪更危险，因此调整了定价以满足这些预期。<br>.<br>奖励重新平衡：<br>经济团队还一直在研究一种平衡奖励的算法，该算法考虑了活动的难度、持续时间、风险以及玩家当前的职业进度阶段，统称为“努力（Effort）”。 “努力”将与“奖励（Reward）”值相平衡，“奖励”值可以是进度、游戏内货币、物品等。该算法正在新的活动事件和任务上进行测试，我们计划将其应用于游戏内的任何活动上以确保奖励有趣且公平，并且不会扰乱经济。<br>团队理解，改变有时可能会带来忧虑或不确定性，但请放心，这些调整是根据算法并考虑到大家的反馈而经过仔细考虑后做出的。团队的目标不仅是增强游戏内经济的凝聚力，而且是为宇宙中的所有公民提供更加身临其境和令人满意的游戏体验。</p><br>作者：灬灬G灬灬<br>楼层：2楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 17:32:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8976129530?pid=150096957936#150096957936",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8976129530?pid=150096957936#150096957936"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【速迅】Alpha 3.23.0版本已开放PTU第一波",
+        "link": "https://tieba.baidu.com/p/8974818078?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8974818078",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【速迅】Alpha 3.23.0版本已开放PTU第一波的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《【速迅】Alpha 3.23.0版本已开放PTU第一波》",
+            "description": "<p>NDA已解除，<br>最新更新说明请见：<br><a href=\"http://jump2.bdimg.com/safecheck/index?url=rN3wPs8te/q5OliqKZYDxPDqAWItH18D/FF0q+Kb9SEG0IrFhh1k8FKmVRmD+qoYyExmB9N/65I=\" target=\"_blank\" content-data=\"a:6:{s:6:&quot;source&quot;;s:6:&quot;贴吧&quot;;s:5:&quot;title&quot;;s:52:&quot;鳄梨（有机会PTU）3.23.0 9132580 补丁说... &quot;;s:7:&quot;pic_url&quot;;s:186:&quot;http://tiebapic.baidu.com/forum/w%3D720%3Bq%3D80/sign=bdf4af87c1d6277fe912303a18036e0d/90ef76c6a7efce1ba7e3f3f6e951f3deb58f65c5.jpg&quot;;s:5:&quot;price&quot;;s:0:&quot;&quot;;s:4:&quot;sort&quot;;s:1:&quot;1&quot;;s:8:&quot;url_type&quot;;s:1:&quot;1&quot;;}\" rel=\"noopener noreferrer nofollow\" class=\"j-no-opener-url\">鳄梨（有机会PTU）3.23.0 9132580 补丁说... </a><br>.<br>历史更新说明请看LZ历史发帖</p><br>作者：灬灬G灬灬<br>楼层：1楼<br> 来自iPhone客户端",
+            "pubDate": "Wed, 10 Apr 2024 21:57:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8974818078?pid=150091225798#150091225798",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8974818078?pid=150091225798#150091225798"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【速迅】Alpha 3.23.0版本已开放PTU第一波》",
+            "description": "<p>目前在EPTU频道，别下错了（版本号：9138466）</p><br>作者：灬灬G灬灬<br>楼层：2楼<br> ",
+            "pubDate": "Wed, 10 Apr 2024 22:01:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8974818078?pid=150091229523#150091229523",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8974818078?pid=150091229523#150091229523"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【来自月报】宙斯灰盒完成，进入“美容和打磨”阶段",
+        "link": "https://tieba.baidu.com/p/8974813625?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8974813625",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【来自月报】宙斯灰盒完成，进入“美容和打磨”阶段的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《【来自月报】宙斯灰盒完成，进入“美容和打磨”阶段》",
+            "description": "<p>- 宙斯灰盒完成，进入“美容和打磨”阶段<br>- 铁砧军团兵白盒完成，正在等待游戏玩法验证，也在等待艺术家空下来以进入全面开发<br>- 资源网格工作已开始，有10艘船已经接近完成，其中一些舰船会更新组件列表。等游戏玩法验证后，这些船上的继电器位置也将确定<br>- 某艘老船的更新工作继续，包括更新仪表盘、驾驶舱和一些外壳更新</p><br>作者：灬灬G灬灬<br>楼层：2楼<br> ",
+            "pubDate": "Wed, 10 Apr 2024 21:42:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8974813625?pid=150091212510#150091212510",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8974813625?pid=150091212510#150091212510"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【来自月报】宙斯灰盒完成，进入“美容和打磨”阶段》",
+            "description": "<p>宙斯的座椅<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"240\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=abe99bc697c8a786be2a4a065708c9c7/68a63cdf8db1cb13c7a2072f9b54564e93584bd5.jpg?tbpicau=2024-04-14-05_d7a5b605db7db51c54fd4da49a4f48ca\" size=\"537107\" referrerpolicy=\"no-referrer\"><br>配送中心<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"240\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=f3ffc73136cf3bc7e800cde4e101babd/815a344e9258d1092728928e9758ccbf6d814dd5.jpg?tbpicau=2024-04-14-05_c6ab927cbff02b9021eb069d68331579\" size=\"666734\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"240\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=6238cdf1ba039245a1b5e107b795a4a8/6ff4e08ba61ea8d35ce94f38d10a304e241f58d5.jpg?tbpicau=2024-04-14-05_2dace9a774b2e0c5bd17ee72f28dc9a6\" size=\"404735\" referrerpolicy=\"no-referrer\"><br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"240\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=737eda33c194a4c20a23e7233ef51bac/a1112334970a304e80e99bc697c8a786c8175cd5.jpg?tbpicau=2024-04-14-05_2c8d7322b0ff174383821ce7271f1889\" size=\"407498\" referrerpolicy=\"no-referrer\"><br>六角湾的物品银行<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"240\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=a50215d9eb6eddc426e7b4f309dab6a2/8dc6c586c9177f3eccffc73136cf3bc79e3d56d5.jpg?tbpicau=2024-04-14-05_3d14443e352f9ab9809a2fbd83d09708\" size=\"552835\" referrerpolicy=\"no-referrer\"><br>会爆炸容器已经经过重新设计并会取代原来的静态物体，当玩家射击它时就会爆炸<img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"240\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=040b5c6a96160924dc25a213e406359b/67c9fd3df8dcd1000857c31d348b4710b8122fd5.jpg?tbpicau=2024-04-14-05_98373f408986138d6868ee460353b66a\" size=\"378049\" referrerpolicy=\"no-referrer\"><br>灭火器器充装柜已通过灰盒，进入最后阶段。另外悬浮货物推车也正在做最后的准备，为货运机库更新做好准备。<img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"240\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=b245012804a7d933bfa8e47b9d4ad194/9ff39e039245d68869c98998e2c27d1ed31b24d5.jpg?tbpicau=2024-04-14-05_1a326064754973417365773351fc2127\" size=\"384188\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：1楼<br> ",
+            "pubDate": "Wed, 10 Apr 2024 21:42:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8974813625?pid=150091211881#150091211881",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8974813625?pid=150091211881#150091211881"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】鳄梨（有机会PTU）3.23.0 9132580 补丁说明",
+        "link": "https://tieba.baidu.com/p/8974793256?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8974793256",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "鳄梨（有机会PTU）3.23.0 9132580 补丁说明的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《鳄梨（有机会PTU）3.23.0 9132580 补丁说明》",
+            "description": "<p><span class=\"edit_font_color\"><strong>如果此测试构建足够稳健，可能会开放PTU第一波</strong></span><br>版本号：VERSION 3.23.0-EPTU.9138466<br>.<br>这个新环境中，你的角色将根据LTP数据构建，因此医疗笔、弹药、舰船租赁和精炼厂工单等(非LTI)物品都将丢失。<br>用户组：只有Evocati（如果此测试构建足够稳健，可能会开放PTU第一波）<br>服务器：只有US服（PU/AC）- 复制层/服务器恢复启用<br>长期持续性（LTP）：启用<br>初始aUEC: 1500万<br>.<br>当前版本有Evocati NDA。禁止直播，禁止分享视频、音频、截图以及你的鳄梨账号，但允许谈论测试和你的体验。<br>请登出再重新登录 Issue Council 以查看那里的Evocati环境。请确保在创建IC报告时仅选择\"Evocati 3.23\"环境，因为本次游戏构建仅开放给Evocati。<br>.<br>请关注光谱论坛中的 etf-testing-chat 聊天频道以获取更新和测试说明。<br>.<br>注意：此版本还不包含所有预期的功能，这些还未准备好的功能将在可用时在版本更新中说明。另外，某些功能可能仍是只有部分实装的状态，因此尚未准备好进行测试，当这些功能达到可玩状态时，将在版本更新中说明并添加到“测试焦点”中。请仅在 Issue Council 提交与测试焦点和通常游戏玩法相关的Bug。<br>.<br>【测试焦点 / 主要反馈对象】<br>· 游戏稳定性（主要焦点）<br>· 完全的角色定制器翻新<br>· mobiGlas手环返工/星图/内部地图/小地图<br>· 舱外活动（EVA）T2<br>· 新的战利品搜刮UI<br>· 新的面罩/镜片<br>· 动态准心/完全的FPS战斗重构<br>· 背包换弹/弹药重装<br>· 实体购物UI<br>· 新竞技场指挥官功能：悬浮大逃杀、新的赛道、新的海盗潮最终波次<br>.<br>【已知问题】<br>· PU - 载具购买终端 - 购物/地点 - 无法从终端购买载具<br>· PU - 斯坦顿 - 赫斯顿/十字军 - 罗威尔/奥里森 - 地点/交通 - 罗威尔/奥里森的公交与车站门偏移，导致视觉和碰撞问题<br>· PU - 购物/美术/UI/地点 - 商店中展示的武器都旋转了90度<br>· PU - 多个地点 - 地点/美术 - 六角湾和加利亚的气闸缺少可呼吸的大气和门<br>· PU - 斯坦顿 - 六角湾 - 地点/角色功能 - 玩家尸体不会在六角湾中消失<br>· PU - 斯坦顿 - 角色 - HUD/UI - 死后没有尸体标记<br>· PU - UI/购物终端 - 玩家无法通过点击物品的3D图标来选择物品<br>· PU - 斯坦顿 - 罗威尔 - 女性/AI - 罗威尔缺少女性社交AI<br>· PU - 交互/UI - 突出显示可交互物品后，面板变得无响应<br>· PU - 终端 - 地点/交互/UI - 无法与医疗保险终端交互来管理再生地点<br>· PU - UI - NikNax/VLM - 涂装 - 所有涂装在NikNax和载具装配管理器中都缺少体积信息<br>· PU - 性能 - 在高并发期间会由于DatabaseUnloading而导致帧率不稳定/卡顿<br>· RSI星座所有变体 - PU - 载具/交互 - 驾驶员和副驾驶员座位缺少交互提示<br>· 前端 - UI/地点 - 库存 - 账户授权 - 主要居住地点可能会从前端丢失<br>· AC - 前端 - 工程：决斗 - UI/大厅/菜单 - 大厅屏幕上缺少舰船模型<br>.<br>【功能与玩法】<br>AI：<br>· 移除AI飞船的无限弹药/无限电容器<br>.<br>游戏玩法：<br>· 地图UI面板打磨<br>· 水互动视觉打磨改进<br>.<br>核心技术<br>· 客户端着色器缓存性能优化<br>.<br>【Bug修复】<br>· 修复了飞行员座位上的星图死区<br>· 修复了星图在量子后失去所有功能的问题<br>· 修复了导致星图上的全部或部分搜索结果不可点击的问题<br>· 已修复 - PU - 图形 - 打开mobiGlas手环或库存会导致屏幕上出现黑色伪影<br>· 已修复 - PU - UI - 手环 - 第二次打开选项卡时，资产页面永远卡在加载状态<br>· 已修复 - PU - 游戏代码 - 玩家可能会因在飞行/量子航行途中因闲置而被踢出游戏<br>· 已修复 - PU - 手环/UI/任务 - 任务合同App的下拉列表无法在应用程序中折叠，有时会导致无法选择任务合同<br>· 已修复 - PU - 斯坦顿 - 手环 - UI - 护送信标创建时钱包不更新<br>· 已修复 - PU - 角色/AI - NPC在PU中走动时会摇晃/抖动<br>· 已修复 - PIE - 交互提示 - 提示在其实体周围会偶尔移动，在各个边界框点之间反复弹出<br>· 已修复 - PU - 镜头/舰队管理/商店终端 - 交互时距离终端太近会导致镜头抖动<br>· 已修复 - PU - 货物 - 载具/游戏玩法 - 货箱在将放置到各种飞船的货物网格上时可能会消失<br>· 已修复 - 巡航模式/粘性节流阀缺少HUD指示，因此很难使用<br>· 已修复 - PU - 由于任务邀请通知不正确而无法接受共享任务<br>· 已修复 - 角色定制器 - 随机化不会改变眼睛颜色<br>· 已修复 - PU - 生物/Kopion - 动画/AI - Kopion生物有时不会移动或攻击玩家<br>· 已修复 - PU - 演员 - 趴下 - 拿着手榴弹时，执行脱下头盔/装备到臀部的操作不会迫使玩家爬起来<br>· 已修复 - 890跃动 - PU - 角色/载具 - 交互 - 890的内部电梯的缺少交互文本，无法响应输入<br>.<br>技术修复：<br>· 修复了5个客户端崩溃<br>· 修复了2个服务器崩溃<br>· 修复了1个客户端死锁<br>· 后端服务崩溃修复</p><br>作者：灬灬G灬灬<br>楼层：1楼<br> 本楼含有高级字体",
+            "pubDate": "Wed, 10 Apr 2024 20:29:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8974793256?pid=150091148897#150091148897",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8974793256?pid=150091148897#150091148897"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《鳄梨（有机会PTU）3.23.0 9132580 补丁说明》",
+            "description": "<p>竞技场指挥官的工程模式已在鳄梨测试中</p><br>作者：灬灬G灬灬<br>楼层：2楼<br> ",
+            "pubDate": "Wed, 10 Apr 2024 20:30:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8974793256?pid=150091149677#150091149677",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8974793256?pid=150091149677#150091149677"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《鳄梨（有机会PTU）3.23.0 9132580 补丁说明》",
+            "description": "<p><strong>【开发者问题】</strong><br>Duncan和Thorsten有几个问题要问大家！让他们知道你的想法！<br>- 你的A2上损坏最严重的物品（组件）是什么？<br>- 你有多少次完全损失一个物品（组件）？<br>- 有多少玩家被分配去修理物品（组件）？<br>- 你在游戏过程中大约消耗了多少RMC？<br>- 你是否遇到过RMC用完导致你开始损失物品（组件）的情况？<br>- 你是否指派了专门的工程师？<br>- 请用自己的话说说工程带来了哪些不同？<br>- 你更换了多少个保险丝？<br>- 为了获得正的能量平衡，你关闭了哪些物品（组件）？<br>- 为什么要选择的这个物品（组件）吗？<br>- 在低功率下运行物品（组件）时，你注意到什么影响？<br>- 当所有物品（组件）都打开，并且你仍然同时运行所有物品（组件）时，你注意到什么效果？<br>.<br>对于A2 vs A2<br>- 你是否注意到，根据你的船员配置，你的存活时间有什么不同？<br>.<br>对于A2 vs 短剑<br>- 你是否注意到在没有工程师和有工程师的情况下，A2的存活时间有何不同？<br>.<br><strong>【澄清】</strong><br>与你在公民控上看到的屏幕相比，工程屏幕确实发生了重大变化，但这不是本次测试的关注点，你将用的是一个经过调整的工程屏幕。<br>我们故意没有激活完整的能源管理，这与我们所做的更改与尚未准备就绪的UI更新相关。<br>如上所述，该实验模式的重点是飞船的存活时间。<br>你会遇到了一些物品故障，但这些故障仅限于影响物品的血量。</p><br>作者：灬灬G灬灬<br>楼层：9楼<br> 本楼含有高级字体",
+            "pubDate": "Wed, 10 Apr 2024 21:25:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8974793256?pid=150091197789#150091197789",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8974793256?pid=150091197789#150091197789"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《鳄梨（有机会PTU）3.23.0 9132580 补丁说明》",
+            "description": "<p><strong>【如何游玩】</strong><br>1) 在前端选择“竞技场指挥官”<br>2) 这些模式可以在离线、在线和自定义比赛中进行。请根据你的偏好选择。<br>3) 选择三种游戏模式之一：<br>- 工程：决斗<br>- 工程：中队战斗<br>- 工程：自由飞行（在鳄梨测试阶段，此模式不允许未经同意的 PVP）<br>4)（可选）邀请玩家到你的大厅<br>5）启动！<br>.<br>作为A2船员的一员，你将以步行状态生成。为了获胜，你必须与你的船员一起努力；填补飞行员、枪手和工程师的角色。<br>- 获取库存中的备用保险丝。每个玩家的保险丝数量有限，请明智地使用它们。<br>.<br>对于本次测试，我们感兴趣的是玩家生存时间的反馈。满员的A2在战斗机攻击下能存活多长时间，与在没有物品维护的情况下能存活多长时间。此外，我们还想收集有关飞船部件的使用寿命和保险丝熔断频率的数据。<br>.<br>本次测试中的所有载具均不可定制，并且是专门为此测试而设计的。请尝试一下，并在反馈中告诉我们您的想法。</p><br>作者：灬灬G灬灬<br>楼层：8楼<br> 本楼含有高级字体",
+            "pubDate": "Wed, 10 Apr 2024 21:25:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8974793256?pid=150091197510#150091197510",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8974793256?pid=150091197510#150091197510"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《鳄梨（有机会PTU）3.23.0 9132580 补丁说明》",
+            "description": "<p><strong>[鳄梨 AC测试] 竞技场指挥官工程游戏模式</strong><br>从今晚的新版本开始，我们将启用新的竞技场指挥官游戏模式来测试工程游戏玩法！该游戏模式是一项特殊的限时测试，用于收集为了即将推出的SC载具工程游戏玩法所开发的多项新功能的反馈。它并不代表当前的持续宇宙或游戏的最终版本预期效果。<br>.<br>该测试将在EPTU服务器中的竞技场指挥官中运行。访问将受到限制，具体取决于当前从Evocati开始的开放波次。<br>在鳄梨测试阶段，请不要在工程自由飞行模式中进行PVP。请以此作为熟悉基础，并将PVP留给到AC中的其他工程模式中进行。<br>.<br><strong>【新功能】</strong><br>· 三种游戏模式<br>- 决斗（大力神A2 vs 大力神A2）<br>- 中队战（大力神A2 vs 短剑）<br>- 自由飞行<br>.<br>· 保险丝<br>每个玩家的库存中都有保险丝。它们可用于填充继电器中的空槽或更换继电器中损坏的保险丝。<br>.<br>· 工程面板<br>该面板为玩家提供了组件状态及其连接方式的概览。在这里，玩家将收到关于电量不足以及物品损坏并需要维修的警告。此外，玩家还将看到继电器的状态，其中会针对保险丝丢失或损坏发出警告。<br>玩家可以与物品进行交互，以访问物品的控制按钮（此处打开/关闭）以及特定物品的状态概述。<br>.<br>· 船体穿透<br>攻击飞船造成的伤害现在会穿透船体并损坏下面的飞船物品。玩家现在可以瞄准放置组件的飞船区域。<br>降低船体完整性（生命值）可以增强穿透效果。<br>免责声明：出于测试目的，能量武器将稍微穿透船体。实际发布中不会有！<br>.<br>· 能源管理<br>能源管理只有部分实装进了该实验模式中，重点是简单地打开和关闭物品以实现飞船上的功率平衡。<br>飞船将在所有物品开启的情况下启动，并开始直接从电池消耗电力。为了给电池充电，玩家需要确保发电机产生的电力多于消耗的电力，然后电池是打开状态。<br>.<br>· 维修<br>玩家拥有多功能工具，可以使用打捞修复模式修复损坏的飞船物品。此模式将消耗RMC罐以恢复飞船组件的血量。<br>.<br>此外，我们将使用此模式作为一些武器平衡实验的测试平台。</p><br>作者：灬灬G灬灬<br>楼层：7楼<br> 本楼含有高级字体",
+            "pubDate": "Wed, 10 Apr 2024 21:25:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8974793256?pid=150091197336#150091197336",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8974793256?pid=150091197336#150091197336"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】鳄梨 3.23.0 9135832-9136446 补丁说明",
+        "link": "https://tieba.baidu.com/p/8973522770?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8973522770",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "鳄梨 3.23.0 9135832-9136446 补丁说明的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《鳄梨 3.23.0 9135832-9136446 补丁说明》",
+            "description": "<p>版本已更新至版本 3.23.0-EPTU.9135832-9136446，修复了内存损坏问题。主要问题出现在新巴贝奇，因此该区域的更多流量将可能会告诉我们此修复是否成功。我们将连夜评估本构建，以确保我们能够迎接进一步的人潮。<br>.<br>其余更新请见昨天的 9135813-9135518 更新说明：<a href=\"http://jump2.bdimg.com/safecheck/index?url=rN3wPs8te/q5OliqKZYDxPDqAWItH18D/FF0q+Kb9SFxwVtujjqNBa+IKM+5XSxfyExmB9N/65I=\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"j-no-opener-url\">https://tieba.baidu.com/p/8971965692</a></p><br>作者：灬灬G灬灬<br>楼层：1楼<br> ",
+            "pubDate": "Wed, 10 Apr 2024 01:03:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8973522770?pid=150085704157#150085704157",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8973522770?pid=150085704157#150085704157"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《鳄梨 3.23.0 9135832-9136446 补丁说明》",
+            "description": "<p>另外由于Bug，今天不测AC工程玩法</p><br>作者：灬灬G灬灬<br>楼层：3楼<br> ",
+            "pubDate": "Wed, 10 Apr 2024 01:04:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8973522770?pid=150085710631#150085710631",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8973522770?pid=150085710631#150085710631"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】鳄梨 3.23.0 9135813 补丁说明",
+        "link": "https://tieba.baidu.com/p/8971965692?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8971965692",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "鳄梨 3.23.0 9135813 补丁说明的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": {
+          "title": "灬灬G灬灬回复了帖子《鳄梨 3.23.0 9135813 补丁说明》",
+          "description": "<p>版本号：VERSION 3.23.0-EPTU.9135813-9135518<br>.<br>这个新环境中，你的角色将根据LTP数据构建，因此医疗笔、弹药、舰船租赁和精炼厂工单等(非LTI)物品都将丢失。<br>用户组：只有Evocati<br>服务器：只有US服（PU/AC）- 复制层/服务器恢复启用<br>初始aUEC: 1500万<br>.<br>当前版本有Evocati NDA。禁止直播，禁止分享视频、音频、截图以及你的鳄梨账号，但允许谈论测试和你的体验。<br>请登出再重新登录 Issue Council 以查看那里的Evocati环境。请确保在创建IC报告时仅选择\"Evocati 3.23\"环境，因为本次游戏构建仅开放给Evocati。<br>.<br>请关注光谱论坛中的 etf-testing-chat 聊天频道以获取更新和测试说明。<br>.<br>注意：此版本还不包含所有预期的功能，这些还未准备好的功能将在可用时在版本更新中说明。另外，某些功能可能仍是只有部分实装的状态，因此尚未准备好进行测试，当这些功能达到可玩状态时，将在版本更新中说明并添加到“测试焦点”中。请仅在 Issue Council 提交与测试焦点和通常游戏玩法相关的Bug。<br>.<br>【测试焦点 / 主要反馈对象】<br>· 游戏稳定性（主要焦点）<br>· 完全的角色定制器翻新<br>· mobiGlas手环返工/星图/内部地图/小地图<br>· 舱外活动（EVA）T2<br>· 新的战利品搜刮UI<br>· 新的面罩/镜片<br>· 动态准心/完全的FPS战斗重构<br>· 背包换弹/弹药重装<br>· 实体购物UI<br>· 新竞技场指挥官功能：悬浮大逃杀、新的赛道、新的海盗潮最终波次<br>.<br>【已知问题】<br>MK2现在应该在EPTU里了，你需要重新复制你的PTU账号才能从Live里将其复制过来<br>· PU - 手环/UI/任务 - 任务合同App的下拉列表无法在mobiGlas应用程序中折叠，有时会导致无法选择任务合同<br>· PU - 斯坦顿 - 多个地点 - UI/实体购物 - 载具 - 购买UI出现在飞船下方且无法购买<br>· PU - 镜头/舰船管理/商店终端 - 交互时如果距离终端太近会导致镜头抖动<br>· PU - 复制层 - 服务信标/任务 - 无法创建服务信标<br>· PU - UI/购物终端 - 玩家无法通过点击物品的3D图标来选择物品<br>· PU - 斯坦顿 - 罗威尔 - 女性/AI - 罗威尔缺少女性社交AI<br>· PU - 斯坦顿 - 地点/AI/动画 - 在多个地点都可以看到AI漂浮在地面上<br>· PU - 交互/UI - 突出显示可交互物品后，面板变得无响应<br>· PU - 终端 - 地点/交互/UI - 无法与医疗保险终端交互来管理再生地点<br>· PU - UI - NikNax/VLM - 涂装 - 所有涂装在NikNax和载具装配管理器中都缺少体积信息<br>· PU - 性能 - 在高并发期间会由于DatabaseUnloading而导致帧率不稳定/卡顿<br>· RSI星座所有变体 - PU - 载具/交互 - 驾驶员和副驾驶员座位缺少交互提示<br>· 前端 - UI/地点 - 库存 - 账户授权 - 主要居住地点可能会从前端丢失<br>.<br>【功能与玩法】<br>人物：<br>· 角色定制器<br>- 音频 - 音乐：导入了具有更好混音的新角色定制器资产。稍微调低了角色定制音乐。实现了更好的退出音频过渡。<br>- 打磨 - 设置新的眼睛颜色材质（灰色而不是白色）。设置新的不透明蒙版，以更好的淡化颈部。<br>.<br>· 更新了趴下时的复活和起身动画<br>· 添加了新的舱外行走（EVA）过渡动画<br>.<br>地点：<br>· 更新了星球的海洋素材<br>· 为所有飞船添加了水扰动<br>.<br>AI：<br>· AI飞行打磨<br>在大气中启用平移和对冲行为。更新了AI飞行的精度基础配置文件<br>.<br>· Kopion和Marok音频更新<br>.<br>游戏玩法：<br>· 星图和手环灯光打磨<br>减少阳光强度。修复了某些行星或卫星上的地点名称在向阳的一面难以阅读的问题。更改了文本的Alpha值以提高可见性。进一步更新了的星图标记的可见性。向星图添加了任务小部件。使量子标记文本与语境相关。与玩家的距离应显示在搜索列表中的名称下方。<br>.<br>· 罗威尔和新巴贝奇的新玩家体验任务打磨<br>.<br>舰船与载具：<br>· 大幅增加战神地狱火和离子光的弹药数量<br>· 修正了RSI极光飞船上不对称的横向助推修改器<br>.<br>武器和物品：<br>· 碎片手榴弹：增加引爆时间，并减少HUD图标显示距离<br>.<br>核心技术：<br>· 进一步完善星球效果、视觉改进和优化<br>· 调整了一些Tobii眼动仪的默认设置<br>.<br>【Bug修复】<br>· 已修复 - 多种载具 - AC/PU - 载具/MFD - 本体状态的MFD不显示护盾状态<br>· 已修复 - PU - MFD - MFD屏幕中显示的飞船非常小<br>· 已修复 - PU - 斯坦顿 - 地点/AI/动画 - 在多个地点都可以看到AI漂浮在地面上<br>· 已修复 - 当目标处于掩体中时，FPS NPC会忽略其射击持续时间<br>· 已修复 - PU - 所有地点 - 角色/消耗品 - 玩家无法对其他玩家使用任何医疗笔<br>· 已修复 - PU - 角色/UI - 搜刮库存 - 当倒下的玩家复活时，库存和搜刮UI不会关闭，允许玩家继续搜刮他们<br>· 已修复 - PU - 武器功能 - 光学瞄准镜 - 自定义武器时武器配件无响应<br>· 已修复 - PU - HUD - 合同UI - UI不会自动更新，但会在取消跟踪然后再次跟踪合同时更新一次<br>· 已修复 - 放置自定义地图标记时，在文本输入框中，闪烁光标会在实际字符索引-1的位置上闪烁，导致光标始终落后于任何文本输入<br>· 已修复 - PU - 斯坦顿 - 手环 - UI/AI/任务 - 任务提供者 - 初始会面后任务提供者给的合同不存在于“合同”选项卡中<br>· 已修复 - 多种载具 - PU - 载具/音频/SFX - 房间之间的内部氛围音频不融合<br>· 已修复 - 锁定UI - 当锁定目标时“选定”状态不可见<br>· 已修复 - PU - 新巴贝奇 - 志远大厦 - 美术/地点/照明 - 公寓中的灯光被分为了颜色列<br>· 已修复 - PU - 斯坦顿 - 加利亚安保站 - 地点/AI - 加利亚内部缺失AI，只有外部的安保AI会生成<br>· 已修复 - 交互/车辆 - 德雷克毛虫 - 无法与任何操作员座位或炮塔交互或进入<br>· 已修复 - PU - 角色 - UI - PIE/PIS - 即使有存储空间，交换可携带物品也会导致其掉落<br>· 已修复 - PU - 角色 - EVA/动画/库存 - 玩家无法在EVA中脱下护甲<br>· 已修复 - PU - 斯坦顿 - UI - 手环 - 使用某些基底服时通讯和载具屏幕会停止工作<br>· 已修复 - 自由枪骑兵所有变体 - PU - 载具/设计 - 驾驶舱的所有座椅都可以非自由枪骑兵通电<br>· 已修复 - 斯坦顿 - UI/购物终端 - 玩家无法通过点击物品的3D图标来选择物品<br>· 修复了Marok着陆时的位置<br>.<br>技术修复：<br>· 修复了10个客户端崩溃<br>· 修复了9个服务器崩溃<br>· 修复了1个服务器内存损坏错误<br>· 修复了切换分辨率造成的客户端崩溃</p><br> ",
+          "pubDate": "Mon, 08 Apr 2024 23:34:00 GMT",
+          "guid": {
+            "_": "https://tieba.baidu.com/p/8971965692?pid=150079519693#150079519693",
+            "$": {
+              "isPermaLink": "false"
+            }
+          },
+          "link": "https://tieba.baidu.com/p/8971965692?pid=150079519693#150079519693"
+        }
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【2024年4月8日 每周简报】",
+        "link": "https://tieba.baidu.com/p/8971911567?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8971911567",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【2024年4月8日 每周简报】的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": {
+          "title": "灬灬G灬灬回复了帖子《【2024年4月8日 每周简报】》",
+          "description": "<p><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"313\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=d297ed47170fd9f9a0175561152dd42b/54f4333d269759ee0402a2f0f4fb43166d22df4e.jpg?tbpicau=2024-04-14-05_ea5e89a562544f0fbc6912e030aa7ed6\" size=\"1636209\" referrerpolicy=\"no-referrer\"><br>上周发布了关于公民控2954的重要信息，这是《星际公民》和游戏社区的最大盛典！为期两天的活动将于当地时间10月19日星期六至10月20日星期日在英国曼彻斯特中央会展中心举行。今年的活动是你不容错过的，因此请抓紧时间抢购门票、报名志愿服务、申请社区摊位、准备Cosplay，或是了解将于10月18日星期五举行的独家公民控晚宴！团队还准备了一份精彩的曼彻斯特指南，以帮助你计划前往这座充满活力的城市。最重要的是，公民控常见问题解答已发布，以便你为这场大型活动做好充分准备。<br>.<br>【公民控2954】票务信息 &amp; 开卖时间/波次<br><a href=\"http://jump2.bdimg.com/safecheck/index?url=rN3wPs8te/q5OliqKZYDxPDqAWItH18D/FF0q+Kb9SGUb5BOnQENj5uvlLr5ojs3yExmB9N/65I=\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"j-no-opener-url\">https://tieba.baidu.com/p/8966455501</a><br>【公民控2954 常见问题解答】<br><a href=\"http://jump2.bdimg.com/safecheck/index?url=rN3wPs8te/q5OliqKZYDxPDqAWItH18D/FF0q+Kb9SGUb5BOnQENj0iRK4E+Hb45yExmB9N/65I=\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"j-no-opener-url\">https://tieba.baidu.com/p/8966456346</a><br>.<br>在Alpha 3.23方面，团队继续与鳄梨小组密切合作，以让最新版本正常运作。我们正在稳步推进3.23版本，为开放给跟多的PTU受众做好准备，团队的目标是在本周晚些时候开放PTU第1波，敬请关注！<br>.<br>与此同时，跃动小镇仍然安全吗？活动从现在开始一直持续到4月15日，所以准备好去看看吧！<br>.<br>超速协议现已正式进入第四阶段。报告表明异种威胁已渗透到关键的通信中心。CDF成员应保持警惕，并通过你的mobiGlas手环等待进一步指示。你的准备对于成功击退异种威胁的任务至关重要。<br>.<br>本周：<br>【北京时间 周三】<br>- 剧情故事：惠特利指南 - 德雷克秃鹫<br>.<br>【北京时间 周四】<br>- 2024年3月 PU月报<br>- 2024年3月 42中队月报（通过邮件发送）<br>.<br>【北京时间 周五】<br>- 本周的ISC节目中，我们将采访制作超速协议的开发者，并且看看异种威胁的更新。<br>- 公民控门票抢先购票（大氪户、订阅者）<br>.<br>【北京时间 周六】<br>- 公民控门票一般销售（所有人）<br>- 每周新闻邮件<br>- 本周没有SCL直播节目</p><br> ",
+          "pubDate": "Mon, 08 Apr 2024 21:22:00 GMT",
+          "guid": {
+            "_": "https://tieba.baidu.com/p/8971911567?pid=150079327085#150079327085",
+            "$": {
+              "isPermaLink": "false"
+            }
+          },
+          "link": "https://tieba.baidu.com/p/8971911567?pid=150079327085#150079327085"
+        }
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【速讯】公民控2954 票价公布",
+        "link": "https://tieba.baidu.com/p/8971864382?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8971864382",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【速讯】公民控2954 票价公布的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:03 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《【速讯】公民控2954 票价公布》",
+            "description": "<p><img class=\"BDE_Image\" pic_type=\"0\" width=\"365\" height=\"112\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=d10dec47170fd9f9a0175561152cd42b/54f4333d269759ee0798a3f0f4fb43166c22dfd4.jpg?tbpicau=2024-04-14-05_99c79a9884e07022315890884905a9aa\" size=\"16052\" referrerpolicy=\"no-referrer\"><br>普通 250刀<br>高级 350刀<br>晚宴 待定</p><br>作者：灬灬G灬灬<br>楼层：1楼<br> ",
+            "pubDate": "Mon, 08 Apr 2024 18:44:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8971864382?pid=150079153640#150079153640",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8971864382?pid=150079153640#150079153640"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【速讯】公民控2954 票价公布》",
+            "description": "<p>【公民控2954】票务信息 &amp; 开卖时间/波次<br><a href=\"http://jump2.bdimg.com/safecheck/index?url=rN3wPs8te/q5OliqKZYDxPDqAWItH18D/FF0q+Kb9SGUb5BOnQENj5uvlLr5ojs3yExmB9N/65I=\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"j-no-opener-url\">https://tieba.baidu.com/p/8966455501</a><br>【公民控2954 常见问题解答】<br><a href=\"http://jump2.bdimg.com/safecheck/index?url=rN3wPs8te/q5OliqKZYDxPDqAWItH18D/FF0q+Kb9SGUb5BOnQENj0iRK4E+Hb45yExmB9N/65I=\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"j-no-opener-url\">https://tieba.baidu.com/p/8966456346</a></p><br>作者：灬灬G灬灬<br>楼层：2楼<br> ",
+            "pubDate": "Mon, 08 Apr 2024 18:51:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8971864382?pid=150079164069#150079164069",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8971864382?pid=150079164069#150079164069"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】RSI启动器2.0测试 rc116更新说明",
+        "link": "https://tieba.baidu.com/p/8971801421?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8971801421",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "RSI启动器2.0测试 rc116更新说明的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《RSI启动器2.0测试 rc116更新说明》",
+            "description": "<p>RSI启动器2.0现已开放给 PTU第一波 用户。<br>下载：（进帖子里看第一个链接）<br>robertsspaceindustries.com/spectrum/community/SC/forum/190049/thread/rsi-launcher-2-0-0-testing-note<br>.<br>警告：从rc115之后的版本开始，我们对游戏安装位置结构进行倒退，以便用户可以轻松地在老启动器（1.6.10）和新启动器（2.0.0）来回切换。<br>这意味着我们将返回使用所有频道的单一文件夹的结构，而不是像在rc115版本中可以单独管理每个频道的游戏位置。<br>如果你将游戏频道存储在不同的位置，则必须重编它们才能正常工作。<br>.<br>这只是暂时的。 一旦我们停用老启动器（1.6.10），我们将实装新版本的游戏安装位置，已让你更方便地管理文件夹库。<br>.<br>请使用 ctrl + alt + shift + r 以重置你的启动器程序，或删除你的App数据存储（你可以在开始菜单中输入 %appdata% 来访问Appdata文件夹，然后删除里面的 rsirclauncher 文件夹）。<br>.<br>目前可用的功能：<br>- 登入<br>- 选择游戏频道<br>- 安装游戏<br>- 更新游戏<br>- 验证游戏<br>- 开始游戏<br>- 头像<br>- 更改库文件夹<br>- 错误处理V2<br>- RSI服务状态信息<br>- 资讯卡片<br>- 下载设置<br>- 取消下载<br>- 下载队列<br>- 滑动动画（rc115）<br>- 游戏安装位置改进和结构更新（rc116）<br>- 游戏页面动画（rc116）<br>- 视频背景（rc116）<br>- 窗口位置和比例持续性 (rc116)</p><br>作者：灬灬G灬灬<br>楼层：1楼<br> ",
+            "pubDate": "Mon, 08 Apr 2024 16:59:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8971801421?pid=150078889760#150078889760",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8971801421?pid=150078889760#150078889760"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《RSI启动器2.0测试 rc116更新说明》",
+            "description": "<p>【已修复问题】<br>· Datapatcher不释放内存（rc114）<br>· 启用“关闭窗口退出（close to quit）”切换按钮已修复 (rc114)<br>· 3001错误重试按钮已修复 (rc114)<br>· 启动游戏后无法禁用启动按钮 (rc115)<br>· 下载队列不开始 (rc115)<br>· 启动器卡在游戏正在运行但游戏未运行（rc115）<br>· 窗口大小不被记住（rc116）<br>· 取消后的空闲下载已修复（rc116）<br>· 队列下载期间状态栏跳跃已修复（rc116）<br>· 已队列验证可能导致启动器崩溃已修复（rc116）<br>· 启动器运行时会话过期可能会导致启动器空白 (rc116)<br>.<br>【已知问题】<br>· 下载Base P4K时可能会出现3001错误（验证文件已修复）<br>· 启动器无法为某些用户创建文件夹<br>· 用户可以在游戏运行时使用快捷方式重置启动器的状态<br>.<br>此候选版本中的一些错误处理尚未到位，尤其是在DL过程中<br>但如果你要反馈文件，可以将log文件包含在IC报告中。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"556\" height=\"42\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=faefa55fd2eef01f4d1418cdd0fe99e0/72d3c1cc7cd98d104f89100a673fb80e7bec90be.jpg?tbpicau=2024-04-14-05_0150010bfb9410f7507596b72e74af7c\" size=\"10328\" referrerpolicy=\"no-referrer\"><br>【快捷键】<br>ctrl + r：重新加载应用程序<br>ctrl + shift + r：重新启动应用程序<br>ctrl + alt + shift + r：重置应用程序</p><br>作者：灬灬G灬灬<br>楼层：3楼<br> ",
+            "pubDate": "Mon, 08 Apr 2024 17:00:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8971801421?pid=150078892704#150078892704",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8971801421?pid=150078892704#150078892704"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】鳄梨 3.23.0 9133961 补丁说明",
+        "link": "https://tieba.baidu.com/p/8968065221?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8968065221",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "鳄梨 3.23.0 9133961 补丁说明的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": {
+          "title": "灬灬G灬灬回复了帖子《鳄梨 3.23.0 9133961 补丁说明》",
+          "description": "<p>版本号：VERSION 3.23.0-EPTU.9133961-9134320<br>.<br>这个新环境中，你的角色将根据LTP数据构建，因此医疗笔、弹药、舰船租赁和精炼厂工单等(非LTI)物品都将丢失。<br>用户组：只有Evocati<br>服务器：只有US服（PU/AC）- 复制层/服务器恢复启用<br>初始aUEC: 1500万<br>.<br>当前版本有Evocati NDA。禁止直播，禁止分享视频、音频、截图以及你的鳄梨账号，但允许谈论测试和你的体验。<br>请登出再重新登录 Issue Council 以查看那里的Evocati环境。请确保在创建IC报告时仅选择\"Evocati 3.23\"环境，因为本次游戏构建仅开放给Evocati。<br>.<br>请关注光谱论坛中的 etf-testing-chat 聊天频道以获取更新和测试说明。<br>.<br>注意：此版本还不包含所有预期的功能，这些还未准备好的功能将在可用时在版本更新中说明。另外，某些功能可能仍是只有部分实装的状态，因此尚未准备好进行测试，当这些功能达到可玩状态时，将在版本更新中说明并添加到“测试焦点”中。请仅在 Issue Council 提交与测试焦点和通常游戏玩法相关的Bug。<br>.<br>【测试焦点 / 接受反馈】<br>· 游戏稳定性和Bug修复<br>· 完全的角色定制器翻新<br>· mobiGlas手环返工/星图/内部地图/小地图<br>· 舱外活动（EVA）T2<br>· 新的战利品搜刮UI<br>· 新的面罩/镜片<br>· 完全的FPS战斗重构<br>· 舰船战斗AI改进<br>· 背包换弹/弹药重装<br>· 动态准心<br>· 实体购物UI<br>· 新竞技场指挥官功能：悬浮大逃杀、新的赛道、新的海盗潮最终波次<br>.<br>【还没准备好测试的功能 / 不接受反馈】<br>下面列出的功能可能只有部分实装，尚未处于我们准备好进行Bug报告和反馈的状态，除非其会导致游戏完全没法玩，不然不接受反馈。<br>· 主控模式<br>· 玩家交互系统和默认操作选项（PIE/PIS）<br>· 实例机库/货运电梯<br>· 运输任务<br>· 基于声望的AI敌对态度<br>.<br>【已知问题】<br>· PU - UI - mobiGlas/面罩/镜片 - 手环、面罩和镜片中的元素只有在玩家将鼠标在其上不停移动后才会更新<br>· PU - 斯坦顿 - 多个地点 - AI - AI会成组生成，并且离开生成点的速度可能很慢<br>· PU - 复制层 - 服务信标/任务 - 无法创建服务信标<br>· PU - UI/购物终端 - 玩家无法通过点击物品的3D图标来选择物品<br>· PU - 斯坦顿 - 罗威尔 - 女性/AI - 罗威尔缺少女性社交AI<br>· PU - 斯坦顿 - 地点/AI/动画 - 在多个地点都可以看到AI漂浮在地面上<br>· PU - 交互/UI - 突出显示可交互物品后，面板变得无响应<br>· PU - 终端 - 地点/交互/UI - 无法与医疗保险终端交互来管理再生地点<br>· PU - UI - NikNax/VLM - 涂装 - 所有涂装在NikNax和载具装配管理器中都缺少体积信息<br>· PU - 性能 - 在高并发期间会由于DatabaseUnloading而导致帧率不稳定/卡顿<br>.<br>【功能与玩法】<br>角色：<br>· 角色定制器打磨<br>向角色定制器添加了多个音乐结尾，将根据玩家在定制器顺序中的进度来播放。更新了化妆的钳制值。设置两种发型的头发长度。为所有面部毛发设置新的毛发长度。<br>.<br>· 进一步完善舱外行走（EVA）的过渡动画<br>.<br>地点：<br>· 对水渲染模拟质量进行了进一步调整和完善<br>.<br>AI：<br>· 舰船战斗AI改进<br>舰船战斗AI在3.23中将变得更加强大。通过这次更新，AI舰船的飞行员通过从经验丰富的狗斗飞行员那里收集的数据，基于真实的PU战斗，获得了新的行为，为他们提供了更多的动作集，使他们能够进行横移、绕飞、更智能的机动和保持距离等等。更加模糊了玩家和AI飞行之间的界限。<br>.<br>游戏玩法：<br>· Mobiglas手环星图UI打磨更新<br>· 进一步打磨实体购物AR UI<br>· 添加了趴下时从低手投掷手榴弹的动画<br>.<br>武器和物品：<br>· 减少贝林手枪的实弹伤害<br>· 增加双子座步枪的实弹伤害<br>· 减少卡斯塔克霰弹枪能量伤害<br>· 增加卢敏V冲锋枪伤害<br>· 平滑了双子座狙击枪的后坐力<br>.<br>核心技术：<br>· CPU/GPU运行性能优化<br>.<br>【Bug修复】<br>· 已修复 - 启动器 - 游戏无法启动 - 错误“星际公民已意外停止运行”<br>· 修复了在尸体上使用牵引光束可能导致客户端崩溃的问题<br>· 已修复 - PU - 斯坦顿 - 赫斯顿 - 罗威尔 - 地点/交通 - 罗威尔的公交站丢失（请注意间隙，因为你可能会掉到地底下）<br>· 已修复 - 十字军星灵系列 - PU - 舰船/载具 - 坡道和货舱/炸弹舱之间的可视区域缺失，导致你无法进入飞船<br>· 已修复 - PU - 角色/交互/UI - 内心思想轮盘在与某些可交互物品交互时会显示占位符文本<br>· 已修复 - PU - 斯坦顿 - 地点/美术 - 椅子和凳子卡在桌子内<br>· 已修复 - PU - ASOP/舰队管理 - UI - ASOP终端缺少文本元素<br>· 已修复 - PU - 斯坦顿 - 精炼终端 - 游戏代码/UI/采矿 - 精炼厂不会列出/识别飞船内容<br>· 已修复 - PU - 斯坦顿 - UI - 手环 - 星图 - 某些行星或卫星上的地点名称在向阳的一面看不清<br>· 已修复 - PU - 角色/UI - 聊天 - 镜头 - 头盔摘下后，聊天UI位于屏幕外且无法访问<br>· 已修复 - PU - 角色/UI - 聊天 - 聊天UI的输入无法从预期输入中关闭<br>· 已修复 - 队伍标记 - 角色身上的队伍标记错位<br>· 已修复 - PU - 角色定制器 - 重新制作角色仅适用于一个游戏实例<br>· 已修复 - PU - 角色定制器 - 头发 - 半身像预览的染料颜色与玩家模型预览不一致<br>· 已修复 - PU - 角色定制器 - 头发 - 玩家只能在自然色控制面板中更改发根染料的细节值<br>· 已修复 - PU - 角色定制器 - UI - 当滚动库中的半身像时，它们在UI框外也能可见<br>· 已修复 - PU - 角色定制器 - 当玩家将头盔脱下时，长胡须会按顺序显示<br>· 已修复 - AC - UI - FPS模式 - 使用角色定制器/在PU中创建角色会禁用竞技场指挥官FPS游戏模式中的所有HUD UI<br>· 已修复 - AC - 主控模式 - 自由飞行 - UI - 竞技场指挥官的UI元素加载到游戏后将不会出现，导致玩家无法部署<br>· 修复了导致某些海洋出现明亮、间歇性闪烁的问题<br>.<br>技术修复：<br>· 修复了6个客户端崩溃<br>· 修复了1个服务器崩溃<br>· 修复了多个服务器死锁<br></p><br> ",
+          "pubDate": "Sat, 06 Apr 2024 03:39:00 GMT",
+          "guid": {
+            "_": "https://tieba.baidu.com/p/8968065221?pid=150063780767#150063780767",
+            "$": {
+              "isPermaLink": "false"
+            }
+          },
+          "link": "https://tieba.baidu.com/p/8968065221?pid=150063780767#150063780767"
+        }
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【每周抢先看】条条大路通这里",
+        "link": "https://tieba.baidu.com/p/8967809207?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8967809207",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【每周抢先看】条条大路通这里的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": {
+          "title": "灬灬G灬灬回复了帖子《【每周抢先看】条条大路通这里》",
+          "description": "<p><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"213\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=28cdde4db41fbe091c5ec31c5b600c30/0b2273dfa9ec8a133021b6dbb103918fa0ecc0e5.jpg?tbpicau=2024-04-14-05_d687c4854c9000ac75ede5a8fb8a6f73\" size=\"5467872\" referrerpolicy=\"no-referrer\"></p><br> ",
+          "pubDate": "Fri, 05 Apr 2024 23:05:00 GMT",
+          "guid": {
+            "_": "https://tieba.baidu.com/p/8967809207?pid=150062842579#150062842579",
+            "$": {
+              "isPermaLink": "false"
+            }
+          },
+          "link": "https://tieba.baidu.com/p/8967809207?pid=150062842579#150062842579"
+        }
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【速讯】加利亚骇客任务也是阶段四的一部分，望周知",
+        "link": "https://tieba.baidu.com/p/8967681919?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8967681919",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【速讯】加利亚骇客任务也是阶段四的一部分，望周知的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《【速讯】加利亚骇客任务也是阶段四的一部分，望周知》",
+            "description": "<p>加利亚安保站骇客任务也是超速协议阶段四的一部分，望周知</p><br>作者：灬灬G灬灬<br>楼层：1楼<br> ",
+            "pubDate": "Fri, 05 Apr 2024 18:14:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8967681919?pid=150062482829#150062482829",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8967681919?pid=150062482829#150062482829"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【速讯】加利亚骇客任务也是阶段四的一部分，望周知》",
+            "description": "<p>阶段四是3个通讯卫星任务+1个加利亚安保站任务</p><br>作者：灬灬G灬灬<br>楼层：2楼<br> ",
+            "pubDate": "Fri, 05 Apr 2024 18:15:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8967681919?pid=150062486821#150062486821",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8967681919?pid=150062486821#150062486821"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【速讯】加利亚骇客任务也是阶段四的一部分，望周知》",
+            "description": "<p><img class=\"BDE_Image\" pic_type=\"0\" width=\"353\" height=\"181\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=5a014420920735fa91f04eb1ae510f9f/e6afaf11728b4710480b1bf785cec3fdfc0323f0.jpg?tbpicau=2024-04-14-05_55fab6be3985e6b550cc029356d25ec4\" size=\"63722\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：3楼<br> ",
+            "pubDate": "Fri, 05 Apr 2024 18:17:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8967681919?pid=150062489787#150062489787",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8967681919?pid=150062489787#150062489787"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【速讯】超速协议 第四阶段：异种威胁的监视（奖励更新！）现已",
+        "link": "https://tieba.baidu.com/p/8967519872?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8967519872",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【速讯】超速协议 第四阶段：异种威胁的监视（奖励更新！）现已的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《【速讯】超速协议 第四阶段：异种威胁的监视（奖励更新！）现已》",
+            "description": "<p>▲ [正在进行] 4 - 异种威胁的监视 +“保持警惕以获取更多信息”（骇客、飞船/零重力/FPS战斗）- 4月5日星期五开始<br>我们了解到异种威胁一直在劫持通信阵列并通过先锋飞船植入标注系统，这就是他们获取情报的方式。<br>► 破解并关闭通讯阵列。<br>.<br>超速协议奖励更新！<br>在完成所有超速协议活动任务链后，你将获得：<br>- 大黄蜂F7C Mk2到F7A Mk2的免费升级<br>- 大黄蜂F7A Mk2 7天免费租赁<br>- 一套异种威胁中型装甲<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"505\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=4cafdbda24d9f2d3201124e799ec8a53/651cd11bb051f819b143e7719cb44aed2e73e7b2.jpg?tbpicau=2024-04-14-05_5f2fac05e7bb44e673b7ef9fc31180c9\" size=\"1215501\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：1楼<br> ",
+            "pubDate": "Fri, 05 Apr 2024 14:59:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8967519872?pid=150061681674#150061681674",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8967519872?pid=150061681674#150061681674"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【速讯】超速协议 第四阶段：异种威胁的监视（奖励更新！）现已》",
+            "description": "<p>新债券CCU<br>锤头鲨 725 -&gt; 675，省50刀<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"299\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=126d8d6b72a85edffa8cfe2b795409d8/27e236e736d12f2e17644a5b09c2d562853568b3.jpg?tbpicau=2024-04-14-05_74c61fbd417c5c4989c46c9cefd73d70\" size=\"24445\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：2楼<br> ",
+            "pubDate": "Fri, 05 Apr 2024 15:01:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8967519872?pid=150061688368#150061688368",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8967519872?pid=150061688368#150061688368"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】鳄梨 3.23.0 9132580 补丁说明",
+        "link": "https://tieba.baidu.com/p/8966511720?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8966511720",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "鳄梨 3.23.0 9132580 补丁说明的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": {
+          "title": "灬灬G灬灬回复了帖子《鳄梨 3.23.0 9132580 补丁说明》",
+          "description": "<p>版本号：VERSION 3.23.0-EPTU.9132580<br>.<br>这个新环境中，你的角色将根据LTP数据构建，因此医疗笔、弹药、舰船租赁和精炼厂工单等(非LTI)物品都将丢失。<br>用户组：只有Evocati<br>服务器：只有US服（PU/AC）- 复制层/服务器恢复启用<br>长期持续性（LTP）：启用<br>船包复制：禁用<br>初始aUEC: 1500万<br>.<br>当前版本有Evocati NDA。禁止直播，禁止分享视频、音频、截图以及你的鳄梨账号，但允许谈论测试和你的体验。<br>请登出再重新登录 Issue Council 以查看那里的Evocati环境。请确保在创建IC报告时仅选择\"Evocati 3.23\"环境，因为本次游戏构建仅开放给Evocati。<br>.<br>请关注光谱论坛中的 etf-testing-chat 聊天频道以获取更新和测试说明。<br>.<br>注意：此版本还不包含所有预期的功能，这些还未准备好的功能将在可用时在版本更新中说明。另外，某些功能可能仍是只有部分实装的状态，因此尚未准备好进行测试，当这些功能达到可玩状态时，将在版本更新中说明并添加到“测试焦点”中。请仅在 Issue Council 提交与测试焦点和通常游戏玩法相关的Bug。<br>.<br>【测试焦点 / 接受反馈】<br>注意：只要此构建能达到稳定性阈值，我们打算让其保持运行<br>· 游戏稳定性（主要焦点）<br>· 完全的角色定制器翻新<br>· mobiGlas手环返工<br>· 星图<br>· 内部地图/小地图<br>· 舱外活动（EVA）T2<br>· 新的战利品搜刮UI<br>· 新的面罩/镜片<br>· 完全的FPS战斗重构<br>· 背包换弹<br>· 弹药重装<br>· 动态准心<br>· 实体购物UI<br>· 新竞技场指挥官功能：悬浮大逃杀、新的赛道、新的海盗潮最终波次<br>.<br>【还没准备好测试的功能 / 不接受反馈】<br>下面列出的功能可能只有部分实装，尚未处于我们准备好进行Bug报告和反馈的状态，除非其会导致游戏完全没法玩，不然不接受反馈。<br>· 主控模式<br>· 玩家交互系统和默认操作选项（PIE/PIS）<br>· 实例机库/货运电梯<br>· 运输任务<br>· 基于声望的AI敌对态度<br>· 以及更多<br>.<br>【已知问题】<br>请避开罗威尔：PU - 斯坦顿 - 赫斯顿 - 罗威尔 - 地点/交通 - 罗威尔的车站丢失<br>请避免在18区使用地图，这可能会导致你的客户端崩溃。<br>.<br>· PU - UI - mobiGlas/面罩/镜片 - 手环、面罩和镜片中的元素只有在玩家将鼠标在其上不停移动后才会更新<br>· PU - 斯坦顿 - 多个地点 - AI - AI会成组生成，并且离开生成点的速度可能很慢<br>· PU - 斯坦顿 - 地点/美术/UI - 物品/武器/购物（货架） - 描述卡上显示不正确的购买按键<br>· PU - 斯坦顿 - 购物终端/UI - 商店在选择物品时不会显示信息或3D模型<br>· PU - UI - 聊天 - 崩溃恢复后，聊天窗口会无限滚动停不下来，导致无法读消息<br>· AC - UI - FPS模式 - 使用角色定制器/在PU中创建角色会禁用竞技场指挥官FPS游戏模式中的所有HUD UI（会在后续补丁中修复）<br>· PU - 复制层 - 服务信标/任务 - 无法创建服务信标<br>· PU - UI/购物终端 - 玩家无法通过点击物品的3D图标来选择物品<br>· PU - 斯坦顿 - 罗威尔 - 女性/AI - 罗威尔缺少女性社交AI<br>· PU - 斯坦顿 - 地点/AI/动画 - 在多个地点都可以看到AI漂浮在地面上<br>· PU - 交互/UI - 突出显示可交互物品后，面板变得无响应<br>· PU - 终端 - 地点/交互/UI - 无法与医疗保险终端交互来管理再生地点<br>· PU - UI - NikNax/VLM - 涂装 - 所有涂装在NikNax和载具装配管理器中都缺少体积信息<br>· PU - 性能 - 在高并发期间会由于DatabaseUnloading而导致帧率不稳定/卡顿<br>· RSI星座所有变体 - PU - 载具/交互 - 飞行员和副驾驶座位缺少交互提示<br>· 前端 - UI/地点 - 库存 - 资格 - 主要居住地点可能会从前端丢失<br>.<br>【功能与玩法】<br>地点：<br>· 水渲染打磨<br>将默认的靠近水后水被剔除的距离从2厘米加到5厘米。海洋中的焦散阴影现在可以在1千米深度可见（之前是25米）。做了进一步的性能优化。<br>.<br>AI：<br>· 添加了Marok（鸟状生物）的新空闲动画<br>· 新巴内奇广场中的健身AI添加了新的健身行为<br>.<br>游戏玩法：<br>· 更新了星图纹理，提高分辨率并打磨<br>· 统一星图和内部地图的UI叠加层<br>· 将鼠标滚轮改回改变移动速度而不是武器选择<br>· 添加罗威尔作为新手体验任务的起始位置<br>.<br>舰船和载具：<br>· 自由枪骑兵组件改进<br>包含并打磨自由枪骑兵系列组件舱的门和动画<br>.<br>【Bug修复】<br>· 修复了多个让NPC站在椅子和长凳上的问题<br>· 已修复 - 地点/AI - 店主AI - 新巴贝奇的一些店主会远离柜台，不与玩家互动<br>· 已修复 - PU - 控制 - HUD/目标 - 无法标记当前锁定的目标<br>· 已修复 - SC - 标记 - 量子拦截力场没有标记<br>· 已修复 - SC - mobiGlas手环 - 合同管理器 - 接受任务后不显示其正在被跟踪<br>· 已修复 - PU - 角色 - 交互 - 即使条件有效，交换行为也不会在装备、检视或自定义中触发<br>· 已修复 - 角色定制器 - 功能 - 难以滚动的选项<br>· 已修复 - 角色定制器 - UI在超宽屏幕上未对齐<br>· 已修复 - PU - 斯坦顿 - 地点 - 远离星球或空间站的太空温度不会达到绝对零度<br>· 修复了军刀渡鸦丢失的座位访问权<br>· 已修复 - 载具- 铁砧大黄蜂 - 无法使用牵引光束移除货物舱<br>.<br>技术修复：<br>· 修复了6个客户端崩溃<br>· 修复了3个服务器崩溃<br>.<br>竞技场指挥官更新：<br>· 对PTU中的枪械突袭模式进行了临时更改，包含了大部分武器以用于额外武器测试<br></p><br> ",
+          "pubDate": "Thu, 04 Apr 2024 21:14:00 GMT",
+          "guid": {
+            "_": "https://tieba.baidu.com/p/8966511720?pid=150057443519#150057443519",
+            "$": {
+              "isPermaLink": "false"
+            }
+          },
+          "link": "https://tieba.baidu.com/p/8966511720?pid=150057443519#150057443519"
+        }
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【2024年4月】跃动小镇2.1再开、徘徊者债券CCU",
+        "link": "https://tieba.baidu.com/p/8966490041?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8966490041",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【2024年4月】跃动小镇2.1再开、徘徊者债券CCU的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": {
+          "title": "灬灬G灬灬回复了帖子《【2024年4月】跃动小镇2.1再开、徘徊者债券CCU》",
+          "description": "<p><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"262\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=0ff7312f2d600c33f079dec02a4d5134/3f2900d0f703918fc478cff1173d269759eec46b.jpg?tbpicau=2024-04-14-05_1dba4e75ecab1d281e8cb71c088bcdfd\" size=\"197279\" referrerpolicy=\"no-referrer\"><br>跃动小镇2.1再开<br>.<br>日程表：<br>北京时间4月5日~4月16日 每次都是凌晨0点开始<br>.<br>以下舰船已开卖：<br>A2、C2、战神地狱火、战神离子光、箭矢、C8R双鱼座、海盗船、Nox、徘徊者、军刀、斯巴达、风暴、风暴AA、女武神<br>.<br>债券CCU：<br>徘徊者 440 -&gt; 410，省30刀<br></p><br> ",
+          "pubDate": "Thu, 04 Apr 2024 20:11:00 GMT",
+          "guid": {
+            "_": "https://tieba.baidu.com/p/8966490041?pid=150057381142#150057381142",
+            "$": {
+              "isPermaLink": "false"
+            }
+          },
+          "link": "https://tieba.baidu.com/p/8966490041?pid=150057381142#150057381142"
+        }
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【公民控2954 常见问题解答】",
+        "link": "https://tieba.baidu.com/p/8966456346?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8966456346",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【公民控2954 常见问题解答】的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954 常见问题解答】》",
+            "description": "<p>今年在曼彻斯特举行的公民控将成为我们迄今为止规模最大的一次，为了确保你能做好充分准备，下面你将找到有关活动、场地、门票等的常见问题解答。<br>.<br>请注意，更多信息和细节会随着活动的临近而揭晓。<br>.<br>►活动在哪里举办？<br>英国曼彻斯特中央会展中心<br>Manchester Central<br>Windmill Street Petersfield, Manchester Greater Manchester M2 3GX Englan<br>.<br>►活动的开始/结束时间是什么时候？<br>今年会有些变化。第一天（当地时间10月19日星期六）将是比以往的公民控活动时间更长。 相比之下，第2天（当地时间10月20日星期日）将是较短的一天，会比之前的公民控活动结束得更早。详细的时间表将在展会临近时公布。<br>.<br>►公民控上有会有哪些内容？<br>随着活动临近，我们将分享更多信息，包括演讲时间表以及对展厅内实物景点的深入了解。<br>.<br>►关于10月18日举办的“公民控晚宴”是否有更多信息？<br>该活动将在大曼彻斯特地区的一个单独场地举行。参加者可以期待一个难忘的夜晚，其中包括激动人心的揭秘、额外的特邀嘉宾、主题美食以及游览全新的曼彻斯特工作室。此次活动的门票极其有限，数量极少。更多信息和门票销售将在未来几个月推出。<br></p><br>作者：灬灬G灬灬<br>楼层：1楼<br> ",
+            "pubDate": "Thu, 04 Apr 2024 18:50:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966456346?pid=150057262894#150057262894",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966456346?pid=150057262894#150057262894"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954 常见问题解答】》",
+            "description": "<p>►我应该带什么参加活动？<br>请记得携带你的门票（你可以打印出来，或是在移动设备上储存数字副本）和带照片的身份证件。<br>.<br>►我可以Cosplay吗？<br>当然可以！团队鼓励大家进行Cosplay。不过，出于安全考虑，禁止携带道具武器，因此请将它们留在家里。请务必在查看今年Cosplay比赛的详细信息。<br>.<br>►活动有年龄限制吗？<br>有的，公民控（19日-20日）的所有参加者必须年满13岁，未成年人必须有成人陪同。晚宴（18日）的参加者必须年满18岁。<br>.<br>►非游戏支持者（没有购买游戏包/消费未满40刀的账号）也可以购买活动门票吗？<br>可以的。<br>.<br>►公民控门票可以使用信用点购买吗？<br>不能，公民控门票不可以通过商店信用点购买。<br>.<br>►活动现场会提供食物吗？<br>将会在会场内提供精选的食品和饮料供应商。<br>.<br>►我可以自带食物吗？<br>可以，你可以自带食物/饮品和个人水壶，但不能将带含酒精的食品/饮品带进来。<br>.<br>►公民控会有新的实体周边吗？<br>有的，我们将在公民控上推出新商品，并在活动上公布。</p><br>作者：灬灬G灬灬<br>楼层：4楼<br> ",
+            "pubDate": "Thu, 04 Apr 2024 18:51:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966456346?pid=150057265917#150057265917",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966456346?pid=150057265917#150057265917"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954 常见问题解答】》",
+            "description": "<p>►你们会提供数字礼品包吗？<br>会的，它包含在你的公民控门票中。之后会提供更多信息。<br>.<br>►活动参加者是否会获得实体礼品袋？<br>有的，它包含在你的公民控门票中。之后会提供更多信息。<br>.<br>►我可以为我的朋友/家人购买多张门票吗？<br>可以的！每辆购物车里最多可购买5张普通门票，当活动临近，门票被寄出后，你可以将门票转给你的朋友们！<br>由于高级体验门票数量有限，因此每个账户只能购买一张，且不可赠送/转让。<br>.<br>►门票会在何时且以什么方式寄出？<br>门票将在活动临近时通过电子邮件发送至你注册帐户的电子邮箱。<br>.<br>►我如何将购买的门票转送给我的朋友/家人？<br>门票将会在活动临近时分发，你可以通过电子邮件转发，或是打印出来并亲自交付你的朋友/家人。<br>.<br>►如果门票附带数字礼品包，我如何将其转发给朋友/家人？<br>数字礼品包会在活动临近时交付，并可作为礼物发送给其他人（官网机库的礼物功能）。<br>.<br>►如果我不来参加公民控，我还能获得数字礼品包吗？<br>可以！数字礼品包将在承诺商店为那些无法参加的人单独出售。但没有高级体验门票的人将无法获得高级体验门票带的数字礼品包。</p><br>作者：灬灬G灬灬<br>楼层：3楼<br> ",
+            "pubDate": "Thu, 04 Apr 2024 18:51:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966456346?pid=150057265025#150057265025",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966456346?pid=150057265025#150057265025"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954 常见问题解答】》",
+            "description": "<p><br>►我没买到我想要的票。 会提供更多门票吗？<br>门票将不会在开卖时间表之外提供。唯一的例外是，如果有票被退回，它将被重新添加到票池中。<br>.<br>►我无法前往曼彻斯特，活动会进行现场直播吗？<br>会的的。观看直播100%免费，将会在Twitch上进行直播。<br>.<br>►我可以在自己的频道上转播公民控吗？<br>可以。<br>.<br>►有哪些门票可供选择以及何时开始销售？<br>门票分为两种，数量有限。 详情请看：<br><a href=\"http://jump2.bdimg.com/safecheck/index?url=rN3wPs8te/q5OliqKZYDxPDqAWItH18D/FF0q+Kb9SGUb5BOnQENj5uvlLr5ojs3yExmB9N/65I=\" target=\"_blank\" rel=\"noopener noreferrer nofollow\" class=\"j-no-opener-url\">https://tieba.baidu.com/p/8966455501</a></p><br>作者：灬灬G灬灬<br>楼层：2楼<br> ",
+            "pubDate": "Thu, 04 Apr 2024 18:51:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966456346?pid=150057264362#150057264362",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966456346?pid=150057264362#150057264362"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954 常见问题解答】》",
+            "description": "<p>7楼自用</p><br>作者：灬灬G灬灬<br>楼层：7楼<br> ",
+            "pubDate": "Thu, 04 Apr 2024 18:52:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966456346?pid=150057267236#150057267236",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966456346?pid=150057267236#150057267236"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954 常见问题解答】》",
+            "description": "<p>►有地方可以寄存我的包和外套吗？<br>有的，我们鼓励所有参加者将自己的物品存放在访客衣帽间中。也就是说，我们强烈建议参加者不要携带大包。<br>.<br>►有失物招领处吗？<br>有的。曼彻斯特中央会展中心会将失物保存两个月，之后会将物品捐给慈善机构。如果你在曼彻斯特中心丢失了东西，请发送电子邮件给我们的礼宾团队或致电0161 834 2700。<br>.<br>►会有座位吗？<br>是的，会有座位。不会指定座位，座位位置先到先得。<br>.<br>►活动现场会有保安吗？<br>有的。<br>.<br>►室内拍照/录像有哪些规则？<br>一般来说，团队鼓励大家对活动进行摄影和录像。然而，活动的某些区域和方面可能会全天禁止摄影/录像。活动现场会明确标明禁止拍照录像的区域。</p><br>作者：灬灬G灬灬<br>楼层：5楼<br> ",
+            "pubDate": "Thu, 04 Apr 2024 18:52:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966456346?pid=150057266379#150057266379",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966456346?pid=150057266379#150057266379"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954 常见问题解答】》",
+            "description": "<p><img class=\"BDE_Image\" pic_type=\"0\" width=\"365\" height=\"112\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=d10dec47170fd9f9a0175561152cd42b/54f4333d269759ee0798a3f0f4fb43166c22dfd4.jpg?tbpicau=2024-04-14-05_99c79a9884e07022315890884905a9aa\" size=\"16052\" referrerpolicy=\"no-referrer\"><br>普通 250刀<br>高级 350刀<br>晚宴 待定</p><br>作者：灬灬G灬灬<br>楼层：15楼<br> ",
+            "pubDate": "Mon, 08 Apr 2024 18:50:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966456346?pid=150079162627#150079162627",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966456346?pid=150079162627#150079162627"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954 常见问题解答】》",
+            "description": "<p>►活动场地是否设有轮椅通道？<br>是的！关于曼彻斯特中央会展中心的无障碍设施的更多信息，请见此处：manchestercentral.co.uk/accessibility<br>.<br>►残疾人登记是否会有单独的路线？<br>绝对有！请放心，有专门为残疾人登记指定的单独路线，因此请放心地与工作人员联系，我们会在每一步为您提供帮助！<br>.<br>►如果我有事无法参加，我可以退票吗？<br>不行，票是不能退的。一旦购买，他们不能退款或换成另一场活动。我们建议你在购票前确保你是否能参加。如果你有任何疑虑或问题，请随时联系我们的支持团队寻求帮助。</p><br>作者：灬灬G灬灬<br>楼层：17楼<br> ",
+            "pubDate": "Mon, 08 Apr 2024 20:40:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966456346?pid=150079292495#150079292495",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966456346?pid=150079292495#150079292495"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954 常见问题解答】》",
+            "description": "<p><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"265\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=08d2ce84923f8794d3ff4826e21a0ead/f4dd9f1f4134970aaad93d13d3cad1c8a7865d76.jpg?tbpicau=2024-04-14-05_1591e193df42e4aa592e7cc42f6cccf1\" size=\"46976\" referrerpolicy=\"no-referrer\"><br>更新：活动年龄限制：参加公民控也必须年满18岁</p><br>作者：灬灬G灬灬<br>楼层：18楼<br> ",
+            "pubDate": "Thu, 11 Apr 2024 15:57:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966456346?pid=150096534804#150096534804",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966456346?pid=150096534804#150096534804"
+          }
+        ]
+      }
+    }
+  },
+  {
+    "rss": {
+      "$": {
+        "xmlns:atom": "http://www.w3.org/2005/Atom",
+        "version": "2.0"
+      },
+      "channel": {
+        "title": "【只看楼主】【公民控2954】票务信息 & 开卖时间/波次",
+        "link": "https://tieba.baidu.com/p/8966455501?see_lz=1",
+        "atom:link": {
+          "$": {
+            "href": "https://rss.42kit.com/baidu/tieba/post/lz/8966455501",
+            "rel": "self",
+            "type": "application/rss+xml"
+          }
+        },
+        "description": "【公民控2954】票务信息 & 开卖时间/波次的最新回复 - Made with love by RSSHub(https://github.com/DIYgod/RSSHub)",
+        "generator": "RSSHub",
+        "webMaster": "i@diygod.me (DIYgod)",
+        "language": "zh-cn",
+        "lastBuildDate": "Fri, 12 Apr 2024 09:54:04 GMT",
+        "ttl": "5",
+        "item": [
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954】票务信息 & 开卖时间/波次》",
+            "description": "<p>3楼自用</p><br>作者：灬灬G灬灬<br>楼层：3楼<br> ",
+            "pubDate": "Thu, 04 Apr 2024 18:49:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966455501?pid=150057261647#150057261647",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966455501?pid=150057261647#150057261647"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954】票务信息 & 开卖时间/波次》",
+            "description": "<p><br>【公民控晚宴】<br>当地时间2024年10月18日星期五<br>与团队一起在公民控会馆之外的场地度过一个难忘的夜晚，其中包括令人兴奋的展示、额外的特邀嘉宾、主题美食以及游览全新的曼彻斯特工作室！<br>与公民控不同，这个活动需要单独的门票，而且门票数量极其有限。请继续关注未来几个月会发布的更多信息。<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"284\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=6b153514f8096b6381195e583c338733/4dd1cbec8a13632703833008d78fa0ec08fac7aa.jpg?tbpicau=2024-04-14-05_fd5a83ece0f81a5b989d276bc729be31\" size=\"46384\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：2楼<br> ",
+            "pubDate": "Thu, 04 Apr 2024 18:49:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966455501?pid=150057261183#150057261183",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966455501?pid=150057261183#150057261183"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954】票务信息 & 开卖时间/波次》",
+            "description": "<p><br>公民控再次回归，2954的规模比以往任何时候都大，将于当地时间10月19日至20日在曼彻斯特中央会展中心举行。<br>.<br>【公民控2954门票 Access Ticket】<br>参加公民控两天全程的门票，还可以获得独家实体和数字礼品。<br>.<br>【公民控2954高级体验票 Premium Experience Ticket】<br>极其有限的门票升级，给你的公民控门票增加了VIP福利，包括专享私人休息区、优先通道、额外的实体和数字赠品、折扣商品等。<br>.<br>从北京时间4月12日开始，千刀大氪户和订阅者将能抢先购票。<br>次日，即4月13日，一般销售将向所有人开放。<br>.<br>以下是北京时间：<br>4月12日 - 抢先购票波次时间表<br>第 1 波 | 4月12日 凌晨0点（UTC 1600 - April 11）<br>第 2 波 | 4月12日 早上8点（UTC 0000 - April 12）<br>第 3 波 | 4月12日 下午16点（UTC 0800 - April 12）<br>.<br>4月13日 - 一般销售波次时间表<br>第 1 波 | 4月13日 凌晨0点（UTC 1600 - April 12）<br>第 2 波 | 4月13日 早上8点（UTC 0000 - April 13）<br>第 3 波 | 4月13日 下午16点（UTC 0800 - April 13）<br><img class=\"BDE_Image\" pic_type=\"0\" width=\"560\" height=\"406\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=4cd96115eed3fd1f3609a232004e25ce/ac1158292df5e0fe57777b3a1a6034a85edf72a9.jpg?tbpicau=2024-04-14-05_02a3f9ea8f577ca6d767979ee0192756\" size=\"128560\" referrerpolicy=\"no-referrer\"></p><br>作者：灬灬G灬灬<br>楼层：1楼<br> ",
+            "pubDate": "Thu, 04 Apr 2024 18:49:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966455501?pid=150057260052#150057260052",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966455501?pid=150057260052#150057260052"
+          },
+          {
+            "title": "灬灬G灬灬回复了帖子《【公民控2954】票务信息 & 开卖时间/波次》",
+            "description": "<p><img class=\"BDE_Image\" pic_type=\"0\" width=\"365\" height=\"112\" src=\"http://tiebapic.baidu.com/forum/w%3D580/sign=d10dec47170fd9f9a0175561152cd42b/54f4333d269759ee0798a3f0f4fb43166c22dfd4.jpg?tbpicau=2024-04-14-05_99c79a9884e07022315890884905a9aa\" size=\"16052\" referrerpolicy=\"no-referrer\"><br>普通 250刀<br>高级 350刀<br>晚宴 待定</p><br>作者：灬灬G灬灬<br>楼层：15楼<br> ",
+            "pubDate": "Mon, 08 Apr 2024 18:50:00 GMT",
+            "guid": {
+              "_": "https://tieba.baidu.com/p/8966455501?pid=150079162827#150079162827",
+              "$": {
+                "isPermaLink": "false"
+              }
+            },
+            "link": "https://tieba.baidu.com/p/8966455501?pid=150079162827#150079162827"
+          }
+        ]
+      }
+    }
+  }
+]
